@@ -2,12 +2,11 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="6fa3e77b-fa42-4f30-998e-deda431d55e8" name="ly" url="http://47.96.100.3">
-        <fileTransfer host="47.96.100.3" port="22" rootFolder="/phpstudy/www/mainweb" accessType="SFTP">
+      <webServer id="6fa3e77b-fa42-4f30-998e-deda431d55e8" name="ly">
+        <fileTransfer host="" port="" rootFolder="" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
     </option>
