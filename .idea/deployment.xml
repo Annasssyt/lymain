@@ -5,7 +5,7 @@
       <paths name="ly">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="http://www.liang-e.cn/" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
