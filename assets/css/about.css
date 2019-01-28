@@ -1,0 +1,224 @@
+.about-banner{
+    height: 450px;
+    background: url("../img/banner.png") no-repeat center center;
+}
+
+/*集团概况*/
+.introduce-content{
+    height:660px;
+}
+.introduce-box{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 60px;
+}
+.introduce-img-box{
+    width: 625px;
+    height: 420px;
+    position: absolute;
+    left: 0;
+    top: 55px;
+    overflow: hidden;
+}
+.introduce-img-box>img{
+    width: 100%;
+    height: 100%;
+    transition: all .6s cubic-bezier(.4,0,.2,1);
+}
+.introduce-img-box>img:hover{
+    transform: scale(1.1)
+}
+.introduce-text-box{
+    width: 525px;
+    height: 370px;
+    padding: 25px 25px;
+    position: absolute;
+    right: 0;
+    top: 55px;
+    line-height: 32px;
+    font-size: 16px;
+    background: #d60b18;
+    color: #ffffff;
+}
+/*核心团队*/
+.team-content{
+    overflow: hidden;
+    background: #f0f0f0;
+    min-height: 1402px;
+}
+.team-main{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.team-box{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 60px;
+    display: none;
+}
+.photo-box{
+    width: 145px;
+    height: 145px;
+    border-radius: 100%;
+    background:#bfbfbf ;
+    position: absolute;
+    left: 35px;
+}
+.photo-box>img{
+    width: 100%;
+    height: 100%;
+}
+.name-box{
+    height: 75px;
+    font-weight: bold;
+    position: relative;
+    left: 210px;
+    align-items: center;
+}
+.name{
+    width: 145px;
+    font-size: 34px;
+    color: #d60b18;
+}
+.job{
+    font-size: 20px;
+    color: #393939;
+}
+.team-detail{
+    width: 100%;
+    min-height: 156px;
+    overflow: hidden;
+    background: #ffffff;
+    /*box-shadow: -2px -2px 10px #82878f;*/
+}
+.team-detail-box{
+    width: 908px;
+    padding-top: 35px;
+    margin-left: 200px;
+    line-height: 55px;
+    font-size: 18px;
+}
+.short-detail{
+    line-height: 55px;
+}
+.long-detail{
+    top: 40px;
+    line-height: 30px;
+    display: none;
+}
+.slide-box{
+    width: 1170px;
+    height: 60px;
+    align-items: center;
+    position: relative;
+}
+.slide-box>img{
+    /*display: inline-block;*/
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+.sup{
+    display: none;
+}
+
+/*成员企业*/
+.member-content{
+    height:660px;
+}
+.member-main{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 60px;
+}
+.member-box{
+    width: 1200px;
+    height: 373px;
+    margin-top: 60px;
+    overflow: hidden;
+}
+.m-box{
+    height: 373px;
+    overflow: hidden;
+    float: left;
+}
+.m-big-box{
+    width: 500px;
+    height: 100%;
+    justify-content: space-between;
+    display: none;
+    float: left;
+    background: url("../img/team/em.png") no-repeat right #d60b18;
+}
+.m-big-text-box{
+    width: 200px;
+    padding: 75px 25px 0;
+    height: 100%;
+    color: #ffffff;
+    float: left;
+    font-size: 14px;
+    background-color: #d60b18;
+;
+}
+.m-big-box-title{
+    width: 200px;
+    height: 48px;
+    border-bottom: 2px solid #ffffff;
+    font-size: 24px;
+}
+.m-big-box-detail{
+    line-height: 30px;
+    margin-top: 15px;
+}
+.m-big-pic-box{
+    float: left;
+}
+.m-small-box{
+    width: 175px;
+    height: 100%;
+    cursor: pointer;
+    text-align: center;
+    line-height: 35px;
+    float: left;
+    /*transition: all .8s ease;*/
+}
+/*.m-small-box:hover{*/
+    /*background-color: #d60b18!important;*/
+/*}*/
+.m-small-box>p:first-child{
+    margin-top: 145px;
+    color: #ffffff;
+    font-size: 24px;
+}
+.m-small-box>p{
+    margin-top: 20px;
+    color: #3e3e3e;
+    font-size: 16px;
+}
+
+
+
+/*区域布局*/
+.map-content{
+    height:950px;
+    background: rgb(42,46,49);
+}
+.map-content>p{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+.map-box{
+    width: 750px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 60px;
+}
