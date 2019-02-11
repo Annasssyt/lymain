@@ -45,9 +45,14 @@ $(document).ready(function(){//在文档加载完毕后执行
     $(window).scroll(function(){//开始监听滚动条
         //获取当前滚动条高度
         var topp = $(document).scrollTop();
-        console.log(topp)
+        //if(topp > 520){
+        //    fadeInUp(".team-box")
+        //}
         if(topp > 520){
-            fadeInUp(".team-box")
+            fadeInUp(".team-box");
+            $("#ly-header").css({"opacity":"0.85"});
+        }else{
+            $("#ly-header").css({"opacity":"1"});
         }
     })
 

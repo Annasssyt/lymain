@@ -33,3 +33,13 @@ if(uuid==8){
 if(uuid==9){
     $(".nine").show()
 }
+$(document).ready(function(){
+    $(window).scroll(function(){
+        var topp = $(document).scrollTop();
+        if(topp > 470){
+            $("#ly-header").css({"opacity":"0.85"});
+        }else{
+            $("#ly-header").css({"opacity":"1"});
+        }
+    })
+})

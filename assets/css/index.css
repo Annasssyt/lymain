@@ -17,7 +17,7 @@
     position: relative;
 }
 .lunbo-img-content{
-    width: 500%;
+    width: 400%;
     height:450px;
     position: absolute;
     left: 0;
@@ -27,14 +27,16 @@
     white-space:nowrap;
 }
 .lunbo-img-box{
-    width: 1920px;
+    /*width: 1920px;*/
+    width: 25%;
     height:450px;
     float: left;
     display: inline-block;
 }
-.lunbo-img-box img{
-    width: 1920px;
-}
+/*.lunbo-img-box img{*/
+    /*!*width: 1920px;*!*/
+    /*width: 100%;*/
+/*}*/
 
 .circle-box{
     position: absolute;
@@ -354,7 +356,7 @@
     position: fixed;
     left: 0;
     top: 0;
-    z-index: 3;
+    z-index: 8;
     display: none;
 }
 .pop{
@@ -370,7 +372,7 @@
     margin-left: -350px;
     top: 200px;
     border-radius: 10px;
-    z-index: 4;
+    z-index: 9;
     transition: all .6s cubic-bezier(.4,0,.2,1);
     display: none;
 }

@@ -103,3 +103,15 @@ var fadeInUp = function (c) {
 }
 
 fadeInUp(".tab-box")
+
+$(document).ready(function(){
+    $(window).scroll(function(){
+        var topp = $(document).scrollTop();
+        if(topp > 400){
+            $("#ly-header").css({"opacity":"0.85"});
+        }else{
+            $("#ly-header").css({"opacity":"1"});
+        }
+    })
+})
+
