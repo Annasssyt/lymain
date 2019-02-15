@@ -98,7 +98,6 @@ var business = function () {
         $(this).addClass('diamond-active').siblings().removeClass('diamond-active');
         $(".mask").show();
         $(".pop").show().addClass('zoomIn');
-        // $(".pop").addClass('zoomIn');
         if($(this).index() == 1){
             $(".pop-btn").attr("href","business.html#jrkj");
             $(".pop-detail").text("服务集团业务为核心，以金融科技思维重塑银行等金融机构其经营逻辑、业务流程、服务体系、管理模式和 IT 架构等，通过“金融+科技”，打造数据化、精准化、自动化、智能化的服务模式......")
@@ -107,16 +106,13 @@ var business = function () {
             $(".pop-detail").text("基于集团已有的金融资源与优势，通过与各类核心企业、监管方合作以提升供应链协同，降低供应链运营成本为目标，基于供应商与核心企业的交易数据和应收账款的分析评估而授信融资。相比传统融资方式，具有：无担保，无抵押，综合利率低，授信额度高，放款速度快，随借随还的特点......")
         }else if($(this).index() == 3){
             $(".pop-btn").attr("href","business.html#tzzx");
-            // $(".pop-detail").text("为客户提供金融、财务、税务、法务等多领域咨询服务，提供全面的问题解决方案。对于有投融资需求的客户，通过集团的第三方平台的优质服务，让双方能快速获取相应信息，在最短时间达到最优匹配。通过优质的咨询中介服务，优化企业资金资源配置......")
             $(".pop-detail").text("依托集团拥有专业团队和丰富的管理知识和经验，以客户至上的服务理念提供的高效率的服务。咨询团队将深入企业和行业，和企业管理人员密切配合，应用科学的方法找出企业面临问题的症结，进行定量和确有论据的定性分析，提出切实可行的解决方案......");
 
         }else if($(this).index() == 4){
             $(".pop-btn").attr("href","business.html#ky");
-            // $(".pop-detail").text("积极响应国家号召，构建养老、孝老、敬老政策体系和社会环境推进医养结合，加快老龄事业和产业发展；以消费者的需求出发以健康管理为核心，快乐服务为依托，利用互联网信息化手段、AI人工智能、大数据等技术，为中国社区及老人提供智慧康养产品及服务......")
             $(".pop-detail").text("贯彻实施国家“健康中国”战略，结合集团产业优势，加强构筑“康养+”产业孵化模式，推进医养结合，加快康养事业和产业发展；从消费者的需求出发，以健康管理为核心，快乐服务为依托，利用移动互联网、物联网、云计算、可穿戴产品技术等信息化手段......")
         } else{
             $(".pop-btn").attr("href","business.html");
-            // $(".pop-detail").text("依托集团产业能力，运用专业专长，辨识具有价值提升空间的资产项目，延伸资产管理价值链，通过债务重组、提供流动性支持、输入先进管理、解决历史遗留问题、引入战略合作伙伴等措施，改善项目财务状况，盘活资产，提升价值，为合作伙伴创造稳健回报......");
             $(".pop-detail").text("依托集团产业基础，专业管理团队通过辨识具有价值提升空间的资产项目，为企业延伸资产管理价值链，通过债务重组、提供流动性支持、输入先进管理、解决历史遗留问题、引入战略合作伙伴等措施，改善企业财务状况，盘活资产，提升价值，为合作伙伴创造稳健回报......");
         }
     });
@@ -130,21 +126,18 @@ business();
 
 /*企业优势*/
 var advantage = function () {
-    $('.d').unbind("mouseover").bind("mouseover",function () {
-        $(this).find('.diamond-text-up').css({'top':'-60px'})
-        $(this).find('.diamond-text-down').css({'top':'70px'})
-    })
-    $('.d').unbind("mouseout").bind("mouseout",function () {
-        $(this).find('.diamond-text-up').css({'top':'110px'})
-        $(this).find('.diamond-text-down').css({'top':'250px'})
-    })
+    $('.adv-icon').unbind("mouseover").bind("mouseover",function () {
+        $(this).addClass("rubberBand")
+    });
+    $('.adv-icon').unbind("mouseout").bind("mouseout",function () {
+        $(this).removeClass("rubberBand")
+    });
 }
 advantage();
 
 /*飞入效果*/
-var fadeInUp = function (c) {
-
-    var timeout = 300;
+var fadeInUp = function (c,anim) {
+    var timeout = 200;
     var index = 0;
     var addClassIn;
     addClassIn = setInterval(function(){
@@ -152,7 +145,7 @@ var fadeInUp = function (c) {
             clearInterval(addClassIn);
             addClassIn = null;
         }else {
-            $(c).eq(index++).show().addClass("fadeInUp");
+            $(c).eq(index++).show().css({'visibility':'visible'}).addClass(anim);
         }
     },timeout);
 
@@ -165,16 +158,17 @@ var fadeInUp = function (c) {
             //获取当前滚动条高度
             var topp = $(document).scrollTop();
             if(topp > 520){
-                fadeInUp(".advantage-main-box")
-                $("#ly-header").css({"opacity":"0.85"});
-            }else{
-                $("#ly-header").css({"opacity":"1"});
+                fadeInUp(".advantage-main-box","fadeInUp")
+                // $("#ly-header").css({"opacity":"1"});
             }
-            if(topp > 1600){
-                fadeInUp(".vision-main-box")
+            // else{
+            //     $("#ly-header").css({"opacity":"1"});
+            // }
+            if(topp > 700){
+                fadeInUp(".business-icon","zoomIn")
             }
-            if(topp > 2500){
-                $(".diamond").show().addClass("zoomIn");
+            if(topp > 1400){
+                fadeInUp(".vision-main-box","fadeInUp")
             }
         })
 

@@ -50,10 +50,11 @@ $(document).ready(function(){//在文档加载完毕后执行
         //}
         if(topp > 520){
             fadeInUp(".team-box");
-            $("#ly-header").css({"opacity":"0.85"});
-        }else{
-            $("#ly-header").css({"opacity":"1"});
+            // $("#ly-header").css({"opacity":"0.85"});
         }
+        // else{
+        //     $("#ly-header").css({"opacity":"1"});
+        // }
     })
 
 })

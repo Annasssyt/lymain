@@ -55,8 +55,8 @@
     cursor:pointer;
 }
 .circle-active{
-    background: red;
-    box-shadow: 0 0 8px red;
+    background: #ff5151;
+    box-shadow: 0 0 8px #ff5151;
 }
 .phone-bar{
     width: 100%;
@@ -94,7 +94,7 @@
 .introduce-img-box{
     width: 600px;
     height: 360px;
-    border-radius: 20px;
+    border-radius: 8px;
     position: absolute;
     left: 0;
     top: 55px;
@@ -108,7 +108,7 @@
 
 }
 .introduce-img-box>img:hover{
-    transform: scale(1.15)
+    transform: scale(1.05)
 }
 .introduce-text-box{
     width: 580px;
@@ -128,96 +128,57 @@
     width: 100px;
     height: 30px;
     line-height: 30px;
-    background: #d60b18;
+    background: #ff5151;
     border-radius: 6px;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
     display: inline-block;
     margin-top: 35px;
     transition: all .5s ease;
 }
 .introduce-btn:hover{
-    background: #e85151;
+    background: red;
 }
 
 /*企业优势*/
 .advantage-content{
-    height:1046px;
-    background: #f0f0f0;
-    padding-bottom: 40px;
+    height:650px;
 }
 .advantage-box{
-    width: 1020px;
+    width: 1175px;
     margin: 60px auto 0;
+    justify-content: space-between;
+    flex-wrap: wrap ;
 }
 
 .advantage-main-box{
-    width: 320px;
-    height: 400px;
-    text-align: center;
-    color: #fff;
-    position: relative;
-    overflow: hidden;
-    float:left;
-    display: none;
-    margin: 10px;
-}
-.advantage-main-mask{
-    width: 100%;
-    height: 100%;
-    background: #d60b18;
-    opacity: .7;
-    position: absolute;
-    left: 0;
-    top: 0;
-    display: none;
-}
-.advantage-main-upper{
-    position: relative;
-    top: 110px;
-    transition: all .6s cubic-bezier(.4,0,.2,1);
+    width: 355px;
+    height: 150px;
+    text-align: left;
+    color: #666666;
+    overflow: visible;
+    margin: 30px 10px 10px;
 }
 .advantage-main-detail{
-    padding: 0 30px;
-    font-size: 18px;
-    line-height: 30px;
-    position: relative;
-    top: 280px;
-    transition: all .6s cubic-bezier(.4,0,.2,1);
-    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
 }
-.advantage-main-icon{
-    width: 114px;
-    height: 114px;
-    border: 2px solid #ffffff;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
+.adv-icon{
+    width: 50px;
+    height: 55px;
+    margin: 15px 40px 0 0;
 }
 .advantage-main-title{
-    font-size: 20px;
-    font-weight: 700;
-    margin-top: 40px;
-    transition: all .6s cubic-bezier(.4,0,.2,1);
+    font-size: 18px;
+    margin-bottom: 15px;
 }
-.advantage-main-box:hover .advantage-main-mask{
-    display: block;
-}
-.advantage-main-box:hover .advantage-main-upper{
-    top:60px;
-}
-.advantage-main-box:hover .advantage-main-detail{
-    top:90px;
-}
-.advantage-main-box:hover .advantage-main-title{
-    margin-top: 20px;
-}
+
 
 /*企业愿景*/
 .vision-content{
-    height:580px;
+    height:500px;
+    background: url("../img/bg2.png");
 }
 .vision-box{
     width: 1200px;
@@ -225,73 +186,105 @@
 }
 .vision-main-box{
     width: 205px;
-    margin: 80px 42px;
+    margin: 70px 42px;
     float: left;
     display: none;
 }
 .vision-main-box>p{
     text-align: center;
-    font-weight: bold;
-    font-size: 24px;
-    color: #1a1a1a;
-    margin-top: 70px;
-}
-
-/*旗下业务*/
-.business-content{
-    height:730px;
-    background: #f0f0f0;
-    padding-bottom: 60px;
-}
-.business-box{
-    width: 1050px;
-    margin: 70px auto 0;
-}
-.diamond{
-    width: 240px;
-    height: 240px;
-    float: left;
-    text-align:center;
+    font-size: 18px;
     color: #ffffff;
-    -moz-transform:rotate(45deg);
-    -webkit-transform:rotate(45deg);
-    -o-transform:rotate(45deg);
-    transform:rotate(45deg);
-    margin-top: 48px;
-    margin-left: 48px;
-    background-color: #302828;
-    transition: all 1s ease;
-    overflow: hidden;
-    position: relative;
-    cursor: pointer;
-    display: none;
+    margin-top: 50px;
 }
-.diamond-active{
-    background-color: #d60b18;
+.vision-icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #ff5151;
+    box-shadow: 0 0 20px 6px rgba(254,106,106,.47);
+    text-align: center;
+    margin: 0 auto;
+    transition: all .6s linear;
+    transform: rotate(0deg);
 }
-.diamond:hover{
-    background-color: #d60b18;
+.vision-icon-s{
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
-.rotate45{
+.vision-icon-s>img{
     width: 100%;
     height: 100%;
-    -moz-transform:rotate(-45deg);
-    -webkit-transform:rotate(-45deg);
-    -o-transform:rotate(-45deg);
-    transform:rotate(-45deg);
-    margin-top: -35px;
-    margin-left: -35px;
 }
-.diamond-text-up{
-    font-size: 24px;
+.vision-icon:hover{
+    transform: rotate(360deg);
+}
+/*旗下业务*/
+.business-content{
+    height:650px;
+    background: url("../img/bg3.png");
+}
+.business-box{
+    width: 1190px;
+    margin: 60px auto 0;
     position: relative;
-    top:100px;
-    margin: 0 auto;
-    transition: all .3s linear;
 }
-/*.diamond-text-up>img{*/
-/*margin-bottom: 10px;*/
-/*}*/
+.business-left{
+    position: relative;
+    float: left;
+}
+.busi-l-box{
+    position: relative;
+    justify-content: space-between;
+    clear: both;
+}
+.business-icon{
+    width: 86px;
+    height: 86px;
+    border: 1px solid #ff5151;
+    border-radius: 50%;
+    box-shadow: 0 0 15px 5px rgba(250,110,110,.5);
+    align-items: center;
+    justify-content: center;
+    transition: all .6s ease;
+    margin: 0 40px;
+    visibility: hidden;
+}
+.business-icon:hover{
+    box-shadow: 0 0 50px 5px rgba(250,110,110,.9);
+}
+.business-title{
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 86px;
+}
+.business-center{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top:-75px;
+    left: 345px;
+}
+.business-logo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left:-11px;
+    margin-top: -10px;
+    z-index: 2;
+}
+.business-right{
+    position: relative;
+    float: right;
+}
+.cin{
+    display: none;
+}
+.business-icon:hover .cin{
+    display: block;
+}
+
 
 /*战略伙伴*/
 .partners-content{
@@ -300,13 +293,12 @@
 .partners-box{
     width: 1200px;
     margin: 0 auto;
-    padding-bottom: 60px;
 }
 .partners-tabs{
     width: 990px;
     height: 100px;
     justify-content: space-between;
-    margin: 68px auto 0;
+    margin: 40px auto 0;
 }
 .partners-tab{
     cursor: pointer;
@@ -316,7 +308,7 @@
     height: 0;
     border-width: 33px;
     border-style: solid;
-    border-color: transparent  transparent #302828 transparent;
+    border-color: transparent  transparent #eeeeee transparent;
     position: relative;
     transition: all .6s cubic-bezier(.4,0,.2,1);
     margin-top: -23px;
@@ -325,11 +317,10 @@
 }
 .partners-detail{
     width: 1080px;
-    padding: 60px;
-    border-radius: 10px;
-    background:#302828;
-    box-shadow: 0 5px 10px #e6e6e6;
-    color: #ffffff;
+    padding: 40px 45px 30px;
+    border-radius: 5px;
+    background:#eeeeee;
+    color: #333333;
 }
 
 .p-two{
@@ -350,9 +341,7 @@
 .mask{
     width: 100%;
     height: 100%;
-    /*background: rgba(255,255,255,0);*/
     background: rgba(0,0,0,.8);
-    /*background: rgba(0,0,0,.5);*/
     position: fixed;
     left: 0;
     top: 0;
@@ -363,10 +352,7 @@
     width: 700px;
     height: 350px;
     background: rgba(255,255,255,1);
-    /*background: rgba(0,0,0,.8);*/
-    /*background: #302828;*/
     color: #333333;
-    /*color: #ffffff;*/
     position: fixed;
     left: 50%;
     margin-left: -350px;
