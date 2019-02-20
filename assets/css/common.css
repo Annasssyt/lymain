@@ -23,6 +23,7 @@ a{
 }
 .container{
     width: 100%;
+    position: relative;
 }
 
 /*导航条*/
@@ -35,7 +36,8 @@ a{
 #ly-header{
     width: 100%;
     height: 60px;
-    background: #393333;
+    /*background: #393333;*/
+    background: rgba(255,255,255,.8);
     /*opacity: 0.8;*/
     position: fixed;
     left: 0;
@@ -51,29 +53,87 @@ a{
     float: left;
     height: 100%;
     overflow: hidden;
+    margin-top: 15px;
 }
 .ly-nav{
     width: 800px;
     height: 100%;
     float:right;
 }
+/*.nav-box{*/
+    /*!*display: inline-block;*!*/
+    /*background: transparent;*/
+    /*line-height: 60px;*/
+    /*text-align: center;*/
+    /*color:#ffffff;*/
+    /*font-size: 20px;*/
+    /*padding: 0 65px;*/
+    /*float: left;*/
+    /*cursor: pointer;*/
+    /*transition: all .5s ease;*/
+    /*position: relative;*/
+/*}*/
 .nav-box{
-    display: inline-block;
     background: transparent;
-    line-height: 60px;
+    line-height: 56px;
     text-align: center;
-    color:#ffffff;
-    font-size: 20px;
-    padding: 0 65px;
+    color:#333333;
+    font-size: 18px;
+    padding: 0 20px;
+    margin: 0 45px;
     float: left;
     cursor: pointer;
     transition: all .5s ease;
+    position: relative;
+    border-bottom: 4px solid transparent;
 }
 .nav-box:hover{
-    background: #ff5151;
+    color: #ff5151;
+    border-bottom: 4px solid #ff5151;
 }
+/*.nav-box:hover{*/
+    /*background: #ff5151;*/
+/*}*/
 .nav-active{
-    background: #ff5151;
+    color: #ff5151;
+    border-bottom: 4px solid #ff5151;
+}
+/*.nav-active{*/
+    /*background: #ff5151;*/
+/*}*/
+.nav-mini-content{
+    width: 210px;
+    /*width: 120px;*/
+    margin: 0 45px;
+    position: absolute;
+    top: 60px;
+    left: -94px;
+    /*background: #393333;*/
+    background: rgba(255,255,255,.8);
+    display: none;
+}
+.business-nav:hover .nav-mini-content{
+    display: block;
+}
+.nav-box-mini{
+    width: 210px;
+    /*width: 120px;*/
+    display: inline-block;
+    line-height: 60px;
+    /*line-height: 56px;*/
+    text-align: center;
+    /*color:#ffffff;*/
+    color:#333333;
+    font-size: 18px;
+    /*border-bottom: 4px solid transparent;*/
+}
+.nav-mini-active{
+    color: #ff5151;
+}
+.nav-box-mini:hover{
+    color: #ff5151;
+    /*border-bottom: 4px solid #ff5151;*/
+    /*background: #ff5151;*/
 }
 
 /*标题样式*/
@@ -169,6 +229,15 @@ a{
     text-align: center;
     border-top: 1px solid #424242;
     font-size: 16px;
+}
+
+.idd{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0;
 }
 
 @-webkit-keyframes warn{

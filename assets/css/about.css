@@ -38,14 +38,17 @@
     top: 55px;
     line-height: 32px;
     font-size: 16px;
-    background: #d60b18;
+    background: #ff5151;
+    /*background: #ffbdbd;*/
     color: #ffffff;
+    /*color: #333333;*/
 }
 /*核心团队*/
 .team-content{
     overflow: hidden;
     background: #f0f0f0;
-    min-height: 1402px;
+    /*min-height: 1402px;*/
+    min-height: 1170px;
 }
 .team-main{
     width: 1200px;
@@ -83,7 +86,7 @@
 .name{
     width: 145px;
     font-size: 34px;
-    color: #d60b18;
+    color: #ff5151;
 }
 .job{
     font-size: 20px;
@@ -154,7 +157,7 @@
     justify-content: space-between;
     display: none;
     float: left;
-    background: url("../img/team/em.png") no-repeat right #d60b18;
+    background: url("../img/team/em.png") no-repeat right #ff5151;
 }
 .m-big-text-box{
     width: 200px;
@@ -163,7 +166,7 @@
     color: #ffffff;
     float: left;
     font-size: 14px;
-    background-color: #d60b18;
+    background-color: #ff5151;
 ;
 }
 .m-big-box-title{

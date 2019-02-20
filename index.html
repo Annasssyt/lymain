@@ -9,6 +9,18 @@
     <link rel="stylesheet" href="assets/css/index.css" />
     <link rel="shortcut icon" href="assets/img/bookicon.png" />
     <link rel="bookmark" href="assets/img/bookicon.png" type="image/x-icon"/>
+    <script type="text/javascript">
+        var mobileAgent = new Array("iphone", "ipod", "ipad", "android", "mobile", "blackberry", "webos", "incognito", "webmate", "bada", "nokia", "lg", "ucweb", "skyfire");
+        var browser = navigator.userAgent.toLowerCase();
+        var isMobile = false;
+        for (var i=0; i<mobileAgent.length; i++){ if (browser.indexOf(mobileAgent[i])!=-1){
+            isMobile = true;
+            //alert(mobileAgent[i]);
+            location.href = 'about.html';
+            break;
+            }
+        }
+    </script>
 </head>
 <body>
 
@@ -16,13 +28,38 @@
 <div id="ly-header">
     <div class="ly-header-box">
         <div class="ly-logo">
-            <img src="assets/img/logo.png" alt="">
+            <img src="assets/img/logo1.png" alt="">
         </div>
         <div class="ly-nav">
             <a href="index.html" class="nav-box nav-active">首页</a>
-            <a href="about.html" class="nav-box">关于量意</a>
-            <a href="business-new.html" class="nav-box">业务服务</a>
-            <a href="news.html" class="nav-box">新闻资讯</a>
+            <div class="nav-box business-nav">
+                <span>关于量意</span>
+                <div class="nav-mini-content">
+                    <a class="nav-box-mini" href="about.html">集团概况</a>
+                    <a class="nav-box-mini" href="about.html#td">核心团队</a>
+                    <a class="nav-box-mini" href="about.html#wh">文化与价值</a>
+                    <a class="nav-box-mini" href="about.html#qy">区域布局</a>
+                </div>
+            </div>
+            <div class="nav-box business-nav">
+                <span>业务服务</span>
+                <!--<a href="business-new.html" style="color: #ffffff">业务服务</a>-->
+                <div class="nav-mini-content">
+                    <a class="nav-box-mini" href="zcgl.html">资产管理</a>
+                    <a class="nav-box-mini" href="tzgl.html">投资管理</a>
+                    <a class="nav-box-mini" href="glzx.html">管理咨询</a>
+                    <a class="nav-box-mini" href="jrkj.html">金融科技</a>
+                    <a class="nav-box-mini" href="gyl.html">供应链金融</a>
+                    <a class="nav-box-mini" href="ky.html">智慧康养</a>
+                </div>
+            </div>
+            <div class="nav-box business-nav">
+                <span>新闻资讯</span>
+                <div class="nav-mini-content">
+                    <a class="nav-box-mini" href="news.html">集团动态</a>
+                    <a class="nav-box-mini" href="news.html#mt">媒体新闻</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -94,84 +131,40 @@
     </div>
 
     <div class="business-box">
-        <div class="business-left">
-            <div class="busi-l-box flex" style="left: 145px">
-                <div class="business-title">资产管理</div>
-                <a href="business-new.html" class="business-icon flex animated">
-                    <img src="assets/img/business/zcgl.png" alt="">
-                    <span class="pulse delay cin"></span>
+            <div class="business-left flex">
+                <a href="zcgl.html" class="business-btn business-btn-on" data-index="1" style="background: #fe946f;">
+                    <img class="business-icon" src="assets/img/business/zcgl3.png">
+                    <div>资产管理</div>
+                </a>
+                <a href="tzgl.html" class="business-btn" data-index="2" style="background: #689ad3;">
+                    <img class="business-icon" src="assets/img/business/tz3.png">
+                    <div>投资管理</div>
+                </a>
+                <a href="glzx.html" class="business-btn" data-index="3" style="background: #ff7373;">
+                    <img class="business-icon" src="assets/img/business/zx3.png">
+                    <div>管理咨询</div>
+                </a>
+                <a href="jrkj.html" class="business-btn" data-index="4" style="background: #61b4cf;">
+                    <img class="business-icon" src="assets/img/business/jrkj3.png">
+                    <div>金融科技</div>
+                </a>
+                <a href="gyl.html" class="business-btn" data-index="5" style="background: #ffbf73;">
+                    <img class="business-icon" src="assets/img/business/gyl3.png">
+                    <div>供应链金融</div>
+                </a>
+                <a href="ky.html" class="business-btn" data-index="6" style="background: #5dcfc3;">
+                    <img class="business-icon" src="assets/img/business/ky3.png">
+                    <div>智慧康养</div>
                 </a>
             </div>
-            <div class="busi-l-box flex" style="margin: 45px 0;">
-                <div class="business-title">投资管理</div>
-                <a href="business-new.html#tzgl" class="business-icon flex animated">
-                    <img src="assets/img/business/tzgl.png" alt="">
-                    <span class="pulse delay cin"></span>
-                </a>
+            <div class="business-right">
+                <p class="business-title">资产管理</p>
+                <p class="business-detail">
+                    依托集团产业基础，专业管理团队通过辨识具有价值提升空间的资产项目，为企业延伸资产管理价值链，通过债务重组、提供流动性支持......
+                </p>
+                <a class="business-right-btn" href="zcgl.html">了解更多</a>
             </div>
-            <div class="busi-l-box flex" style="left: 145px">
-                <div class="business-title">管理咨询</div>
-                <a href="business-new.html#glzx" class="business-icon flex animated">
-                    <img src="assets/img/business/glzx.png" alt="">
-                    <span class="pulse delay cin"></span>
-                </a>
-            </div>
-        </div>
-        <div class="business-center">
-            <img src="assets/img/logomini.png" class="business-logo" alt="">
-            <svg class="atom"  viewBox="0 0 100 100" style="transform: rotate(90deg)">
-                <defs>
-                    <filter id="blur" x="-10" y="-10" width="100" height="100">
-                        <feGaussianBlur in="SourceGraphic" stdDeviation=".4" />
-                    </filter>
-                    <filter id="blur2" x="-10" y="-10" width="120" height="120">
-                        <feGaussianBlur in="SourceGraphic" stdDeviation="3" />
-                    </filter>
-                </defs>
-                <g filter="url(#blur2)">
-                    <circle class="kern" cx="50" cy="50" r="3.5" />
-                </g>
-                <circle class="kern" cx="50" cy="50" r="3.5" />
-                <g class="lines">
-                    <path class="" d="M  57.5,50 57.39,55.21 57.05,60.26 56.5,65 55.75,69.28 54.82,72.98 53.75,75.98 52.57,78.19 51.3,79.54 50,80 48.7,79.54 47.43,78.19 46.25,75.98 45.18,72.98 44.25,69.28 43.5,65 42.95,60.26 42.61,55.21 42.5,50 42.61,44.79 42.95,39.74 43.5,35 44.25,30.72 45.18,27.02 46.25,24.02 47.43,21.81 48.7,20.46 50,20 51.3,20.46 52.57,21.81 53.75,24.02 54.82,27.02 55.75,30.72 56.5,35 57.05,39.74 57.39,44.79 57.5,50"></path>
-                    <path class="" d="M  53.75,56.5 49.18,59 44.64,61.23 40.26,63.13 36.17,64.62 32.51,65.67 29.38,66.24 26.87,66.32 25.07,65.9 24.02,65 23.76,63.64 24.3,61.87 25.63,59.74 27.69,57.32 30.43,54.67 33.76,51.88 37.59,49.03 41.8,46.21 46.25,43.5 50.82,41 55.36,38.77 59.74,36.88 63.83,35.38 67.49,34.33 70.62,33.76 73.13,33.68 74.93,34.1 75.98,35 76.24,36.36 75.7,38.13 74.38,40.26 72.31,42.68 69.57,45.33 66.24,48.12 62.41,50.97 58.2,53.79 53.75,56.5"></path>
-                    <path class="" d="M  53.75,43.5 58.2,46.21 62.41,49.03 66.24,51.88 69.57,54.67 72.31,57.32 74.38,59.74 75.7,61.87 76.24,63.64 75.98,65 74.93,65.9 73.13,66.32 70.63,66.24 67.49,65.67 63.83,64.62 59.74,63.13 55.36,61.23 50.82,59 46.25,56.5 41.8,53.79 37.59,50.97 33.76,48.13 30.43,45.33 27.69,42.68 25.63,40.26 24.3,38.13 23.76,36.36 24.02,35 25.07,34.1 26.87,33.68 29.37,33.76 32.51,34.33 36.17,35.38 40.26,36.87 44.64,38.77 49.18,41 53.75,43.5"></path>
-                </g>
-                <g class="electronTails"  filter="url(#blur)" >
-                    <path class="tail tail1" d="M  57.5,50 57.39,55.21 57.05,60.26 56.5,65 55.75,69.28 54.82,72.98 53.75,75.98 52.57,78.19 51.3,79.54 50,80 48.7,79.54 47.43,78.19 46.25,75.98 45.18,72.98 44.25,69.28 43.5,65 42.95,60.26 42.61,55.21 42.5,50 42.61,44.79 42.95,39.74 43.5,35 44.25,30.72 45.18,27.02 46.25,24.02 47.43,21.81 48.7,20.46 50,20 51.3,20.46 52.57,21.81 53.75,24.02 54.82,27.02 55.75,30.72 56.5,35 57.05,39.74 57.39,44.79 57.5,50"></path>
-                    <path class="tail tail2" d="M  53.75,56.5 49.18,59 44.64,61.23 40.26,63.13 36.17,64.62 32.51,65.67 29.38,66.24 26.87,66.32 25.07,65.9 24.02,65 23.76,63.64 24.3,61.87 25.63,59.74 27.69,57.32 30.43,54.67 33.76,51.88 37.59,49.03 41.8,46.21 46.25,43.5 50.82,41 55.36,38.77 59.74,36.88 63.83,35.38 67.49,34.33 70.62,33.76 73.13,33.68 74.93,34.1 75.98,35 76.24,36.36 75.7,38.13 74.38,40.26 72.31,42.68 69.57,45.33 66.24,48.12 62.41,50.97 58.2,53.79 53.75,56.5"></path>
-                    <path class="tail tail3" d="M  53.75,43.5 58.2,46.21 62.41,49.03 66.24,51.88 69.57,54.67 72.31,57.32 74.38,59.74 75.7,61.87 76.24,63.64 75.98,65 74.93,65.9 73.13,66.32 70.63,66.24 67.49,65.67 63.83,64.62 59.74,63.13 55.36,61.23 50.82,59 46.25,56.5 41.8,53.79 37.59,50.97 33.76,48.13 30.43,45.33 27.69,42.68 25.63,40.26 24.3,38.13 23.76,36.36 24.02,35 25.07,34.1 26.87,33.68 29.37,33.76 32.51,34.33 36.17,35.38 40.26,36.87 44.64,38.77 49.18,41 53.75,43.5"></path>
-                </g>
-                <g class="electrons">
-                    <path class="electron electron1" d="M  57.5,50 57.39,55.21 57.05,60.26 56.5,65 55.75,69.28 54.82,72.98 53.75,75.98 52.57,78.19 51.3,79.54 50,80 48.7,79.54 47.43,78.19 46.25,75.98 45.18,72.98 44.25,69.28 43.5,65 42.95,60.26 42.61,55.21 42.5,50 42.61,44.79 42.95,39.74 43.5,35 44.25,30.72 45.18,27.02 46.25,24.02 47.43,21.81 48.7,20.46 50,20 51.3,20.46 52.57,21.81 53.75,24.02 54.82,27.02 55.75,30.72 56.5,35 57.05,39.74 57.39,44.79 57.5,50"></path>
-                    <path class="electron electron2" d="M  53.75,56.5 49.18,59 44.64,61.23 40.26,63.13 36.17,64.62 32.51,65.67 29.38,66.24 26.87,66.32 25.07,65.9 24.02,65 23.76,63.64 24.3,61.87 25.63,59.74 27.69,57.32 30.43,54.67 33.76,51.88 37.59,49.03 41.8,46.21 46.25,43.5 50.82,41 55.36,38.77 59.74,36.88 63.83,35.38 67.49,34.33 70.62,33.76 73.13,33.68 74.93,34.1 75.98,35 76.24,36.36 75.7,38.13 74.38,40.26 72.31,42.68 69.57,45.33 66.24,48.12 62.41,50.97 58.2,53.79 53.75,56.5"></path>
-                    <path class="electron electron3" d="M  53.75,43.5 58.2,46.21 62.41,49.03 66.24,51.88 69.57,54.67 72.31,57.32 74.38,59.74 75.7,61.87 76.24,63.64 75.98,65 74.93,65.9 73.13,66.32 70.63,66.24 67.49,65.67 63.83,64.62 59.74,63.13 55.36,61.23 50.82,59 46.25,56.5 41.8,53.79 37.59,50.97 33.76,48.13 30.43,45.33 27.69,42.68 25.63,40.26 24.3,38.13 23.76,36.36 24.02,35 25.07,34.1 26.87,33.68 29.37,33.76 32.51,34.33 36.17,35.38 40.26,36.87 44.64,38.77 49.18,41 53.75,43.5"></path>
-                </g>
-            </svg>
-        </div>
-        <div class="business-right">
-            <div class="busi-l-box flex" style="right: 145px">
-                <a href="business-new.html#jrkj" class="business-icon flex animated">
-                    <img src="assets/img/business/jrkj.png" alt="">
-                    <span class="pulse delay cin"></span>
-                </a>
-                <div class="business-title">金融科技</div>
-            </div>
-            <div class="busi-l-box flex" style="margin: 45px 0;">
-                <a href="business-new.html#gyl" class="business-icon flex animated">
-                    <img src="assets/img/business/gyl.png" alt="">
-                    <span class="pulse delay cin"></span>
-                </a>
-                <div class="business-title">供应链金融</div>
-            </div>
-            <div class="busi-l-box flex" style="right: 145px">
-                <a href="business-new.html#zhky" class="business-icon flex animated">
-                    <img src="assets/img/business/zhky.png" alt="">
-                    <span class="pulse delay cin"></span>
-                </a>
-                <div class="business-title">智慧康养</div>
-            </div>
-        </div>
+
     </div>
 </div>
 
@@ -276,7 +269,7 @@
     </div>
     <div class="vision-box">
         <div class="vision-main-box animated" style="margin-left: 64px;">
-            <div class="vision-icon">
+            <div class="vision-icon v1-shadow">
                 <div class="vision-icon-s">
                     <img src="assets/img/advantage/v1.png" alt="">
                 </div>
@@ -284,7 +277,7 @@
             <p>聚焦主营主业</p>
         </div>
         <div class="vision-main-box animated">
-            <div class="vision-icon">
+            <div class="vision-icon v2-shadow">
                 <div class="vision-icon-s">
                     <img src="assets/img/advantage/v2.png" alt="">
                 </div>
@@ -293,7 +286,7 @@
             <p>坚持客户至上</p>
         </div>
         <div class="vision-main-box animated">
-            <div class="vision-icon">
+            <div class="vision-icon v3-shadow">
                 <div class="vision-icon-s">
                     <img src="assets/img/advantage/v3.png" alt="">
                 </div>
@@ -302,7 +295,7 @@
             <p>加强产品创新</p>
         </div>
         <div class="vision-main-box animated">
-            <div class="vision-icon">
+            <div class="vision-icon v4-shadow">
                 <div class="vision-icon-s">
                     <img src="assets/img/advantage/v4.png" alt="">
                 </div>
@@ -363,11 +356,12 @@
         </div>
         <div>
             <p>业务服务</p>
-            <a href="business.html">资产管理</a>
-            <a href="business.html#jrkj">金融科技</a>
-            <a href="business.html#gyl">供应链金融</a>
-            <a href="business.html#tzzx">投资咨询管理</a>
-            <a href="business.html#ky">智慧康养</a>
+            <a href="zcgl.html">资产管理</a>
+            <a href="tzgl.html">投资管理</a>
+            <a href="glzx.html">管理咨询</a>
+            <a href="jrkj.html">金融科技</a>
+            <a href="gyl.html">供应链金融</a>
+            <a href="ky.html">智慧康养</a>
         </div>
         <div>
             <p>新闻资讯</p>
@@ -388,15 +382,6 @@
     </div>
     <p class="footer-bottom">版权所有（C）量意集团  蜀ICP备18037172号</p>
 </div>
-
-<!--弹框-->
-<!--<div class="mask"></div>-->
-<!--<div class="pop animated">-->
-    <!--<img src="assets/img/icon/close.png" class="close-pop" alt="">-->
-    <!--<div class="pop-detail flex"></div>-->
-    <!--<a class="pop-btn">查看更多</a>-->
-<!--</div>-->
-
 
 <script language="javascript" src="plugin/jquery-1.8.2.min.js"></script>
 <script language="javascript" src="assets/js/index.js"></script>
