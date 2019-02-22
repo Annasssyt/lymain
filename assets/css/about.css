@@ -104,15 +104,17 @@
     padding-top: 35px;
     margin-left: 200px;
     line-height: 55px;
-    font-size: 18px;
+    /*font-size: 18px;*/
+    font-size: 16px;
 }
 .short-detail{
-    line-height: 55px;
+    /*line-height: 55px;*/
+    line-height: 30px;
 }
 .long-detail{
     top: 40px;
     line-height: 30px;
-    display: none;
+    /*display: none;*/
 }
 .slide-box{
     width: 1170px;
@@ -126,7 +128,7 @@
     right: 0;
     cursor: pointer;
 }
-.sup{
+.sdown{
     display: none;
 }
 
@@ -157,6 +159,20 @@
     justify-content: space-between;
     display: none;
     float: left;
+}
+.zeren{
+    background: url("../img/team/em.png") no-repeat right #ff5151;
+}
+.zhuanye{
+    background: url("../img/team/em.png") no-repeat right #ff5151;
+}
+.tashi{
+    background: url("../img/team/em.png") no-repeat right #ff5151;
+}
+.jiji{
+    background: url("../img/team/em.png") no-repeat right #ff5151;
+}
+.chuangxin{
     background: url("../img/team/em.png") no-repeat right #ff5151;
 }
 .m-big-text-box{
