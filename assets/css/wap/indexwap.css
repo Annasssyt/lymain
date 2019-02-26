@@ -64,7 +64,7 @@ body{
     width: 22px;
     height: 20px;
     right: 10px;
-    top: 6px;
+    top: 10px;
     z-index: 200;
 }
 .nav--active .nav__trigger {
@@ -296,6 +296,7 @@ body{
 }
 .vision-box>p{
     margin-top: 15px;
+    font-size: 0.7rem;
 }
 .vision-icon{
     width: 43px;
