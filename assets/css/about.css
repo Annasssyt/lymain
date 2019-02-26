@@ -159,6 +159,7 @@
     justify-content: space-between;
     display: none;
     float: left;
+    position: relative;
 }
 .zeren{
     background: url("../img/team/em.png") no-repeat right #ff5151;
@@ -183,7 +184,11 @@
     float: left;
     font-size: 14px;
     background-color: #ff5151;
-;
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top:0;*/
+    /*z-index: 2;*/
+    /*transform: translate3d(-50%,-50%,0);*/
 }
 .m-big-box-title{
     width: 200px;
@@ -219,6 +224,26 @@
     margin-top: 20px;
     color: #3e3e3e;
     font-size: 16px;
+}
+.blur {
+    /*width: 50%;*/
+    /*height: 100%;*/
+    /*float: right;*/
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    transition: all .5s linear;
+}
+.blur:hover{
+    -webkit-filter: blur(0);
+    -moz-filter: blur(0);
+    -ms-filter: blur(0);
+    filter: blur(0);
+    /*-webkit-filter: initial;*/
+    /*-moz-filter: initial;*/
+    /*-ms-filter: initial;*/
+    /*filter: initial;*/
 }
 
 

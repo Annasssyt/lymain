@@ -1,0 +1,120 @@
+.banner-content{
+    height: 160px;
+}
+
+
+.introduce-content{
+    height: 226px;
+    margin-top: 15px;
+}
+
+
+
+.business-content{
+    height: 275px;
+    margin-top: 15px;
+    padding-top: 20px;
+}
+.business-main{
+    /*width: 82%;*/
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.business-box{
+    width: 33%;
+    height: 87px;
+    text-align: center;
+    margin-top: 21px;
+}
+.business-box>p{
+    margin-top: 15px;
+}
+.business-icon{
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    margin-left: -22px;
+}
+
+.title{
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px dashed #E0E6FA;
+    font-weight: 500;
+}
+
+.advantage-content{
+    height: 298px;
+    background-image: url("../../img/wap/bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.advantage-main{
+    width: 83%;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 5%;
+}
+.advantage-box{
+    width: 48%;
+    height: 58px;
+    background: rgba(255,115,115,.7);
+    margin-top: 10px;
+    align-items: center;
+    color:#ffffff;
+    /*vertical-align: center;*/
+}
+.advantage-box>img{
+    margin-left:9%;
+}
+.advantage-box>span{
+    margin-left:7%;
+}
+.values-content{
+    height: 167px;
+}
+
+.values-main{
+    /*width: 82%;*/
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.values-box{
+    width: 20%;
+    height: 87px;
+    text-align: center;
+    margin-top: 21px;
+}
+.values-box>p{
+    margin-top: 15px;
+}
+.values-icon{
+    width: 43px;
+    height: 43px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    margin-left: -22px;
+}
+
+.partners-content{
+    height: 107px;
+}
+.partners-main{
+    width: 90%;
+    justify-content: space-between;
+    margin:15px auto
+}
+
