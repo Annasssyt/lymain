@@ -162,22 +162,23 @@
     position: relative;
 }
 .zeren{
-    background: url("../img/team/em.png") no-repeat right #ff5151;
+    background: url("../img/team/2.png") no-repeat right #ff5151;
 }
 .zhuanye{
-    background: url("../img/team/em.png") no-repeat right #ff5151;
+    background: url("../img/team/1.png") no-repeat right #ff5151;
 }
 .tashi{
-    background: url("../img/team/em.png") no-repeat right #ff5151;
+    background: url("../img/team/3.png") no-repeat right #ff5151;
 }
 .jiji{
-    background: url("../img/team/em.png") no-repeat right #ff5151;
+    background: url("../img/team/4.png") no-repeat right #ff5151;
 }
 .chuangxin{
-    background: url("../img/team/em.png") no-repeat right #ff5151;
+    background: url("../img/team/5.png") no-repeat right #ff5151;
 }
 .m-big-text-box{
-    width: 200px;
+    /*width: 200px;*/
+    width: 150px;
     padding: 75px 25px 0;
     height: 100%;
     color: #ffffff;
@@ -191,7 +192,8 @@
     /*transform: translate3d(-50%,-50%,0);*/
 }
 .m-big-box-title{
-    width: 200px;
+    /*width: 200px;*/
+    width: 150px;
     height: 48px;
     border-bottom: 2px solid #ffffff;
     font-size: 24px;

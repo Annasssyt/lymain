@@ -255,15 +255,15 @@
     /*background: -moz-linear-gradient(19deg, #21D4FD, #B721FF); !* Firefox 3.6 - 15 *!*/
     /*background: linear-gradient(19deg, #21D4FD, #B721FF); !* 标准的语法 *!*/
 
-    background: -webkit-linear-gradient(19deg, #21D4FD, #2970ff); /* Safari 5.1 - 6.0 */
-    background: -o-linear-gradient(19deg, #21D4FD, #2970ff); /* Opera 11.1 - 12.0 */
-    background: -moz-linear-gradient(19deg, #21D4FD, #2970ff); /* Firefox 3.6 - 15 */
-    background: linear-gradient(19deg, #21D4FD, #2970ff); /* 标准的语法 */
+    /*background: -webkit-linear-gradient(19deg, #21D4FD, #2970ff); !* Safari 5.1 - 6.0 *!*/
+    /*background: -o-linear-gradient(19deg, #21D4FD, #2970ff); !* Opera 11.1 - 12.0 *!*/
+    /*background: -moz-linear-gradient(19deg, #21D4FD, #2970ff); !* Firefox 3.6 - 15 *!*/
+    /*background: linear-gradient(19deg, #21D4FD, #2970ff); !* 标准的语法 *!*/
 
-    /*background: -webkit-linear-gradient(19deg, #0E03E2, #671290); !* Safari 5.1 - 6.0 *!*/
-    /*background: -o-linear-gradient(19deg, #0E03E2, #671290); !* Opera 11.1 - 12.0 *!*/
-    /*background: -moz-linear-gradient(19deg, #0E03E2, #671290); !* Firefox 3.6 - 15 *!*/
-    /*background: linear-gradient(19deg, #0E03E2, #671290); !* 标准的语法 *!*/
+    background: -webkit-linear-gradient(19deg, #6bc9ff, #86dbfd); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(19deg, #6bc9ff, #86dbfd); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(19deg, #6bc9ff, #86dbfd); /* Firefox 3.6 - 15 */
+    background: linear-gradient(19deg, #6bc9ff, #86dbfd); /* 标准的语法 */
 
     /*background: -webkit-linear-gradient(19deg, #D6E6FF, #F7EBF3); !* Safari 5.1 - 6.0 *!*/
     /*background: -o-linear-gradient(19deg, #D6E6FF, #F7EBF3); !* Opera 11.1 - 12.0 *!*/
