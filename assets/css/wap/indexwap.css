@@ -249,9 +249,6 @@ body{
     border-bottom: 1px dashed #E0E6FA;
     font-weight: 500;
 }
-.introduce-content{
-    height: 226px;
-}
 .advantage-content{
     height: 298px;
     background-image: url("../../img/wap/bg.png");
@@ -280,27 +277,27 @@ body{
 .advantage-box>span{
     margin-left:7%;
 }
-.values-content{
+.vision-content{
     height: 167px;
 }
 
-.values-main{
+.vision-main{
     /*width: 82%;*/
     width: 100%;
     margin: 0 auto;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.values-box{
+.vision-box{
     width: 25%;
     height: 87px;
     text-align: center;
     margin-top: 21px;
 }
-.values-box>p{
+.vision-box>p{
     margin-top: 15px;
 }
-.values-icon{
+.vision-icon{
     width: 43px;
     height: 43px;
     border-radius: 30px;
