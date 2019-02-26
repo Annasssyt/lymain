@@ -1,7 +1,9 @@
 .wapbanner-content{
     height: 160px;
     background: #5DA0FB;
+    /*background:url("../../img/wap/banners/aboutbanner.png") no-repeat 100% 100% #5DA0FB;*/
 }
+
 .introduce-content{
     /*height: 280px;*/
     margin-top: 15px;
@@ -87,6 +89,7 @@
 }
 
 .regional-content{
+    padding-bottom: 30px;
 }
 .regional-main{
     width: 94%;
