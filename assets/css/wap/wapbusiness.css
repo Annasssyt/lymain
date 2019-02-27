@@ -4,25 +4,27 @@
     height: 160px;
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: 100% 100%;
     background-color: #5DA0FB;
     justify-content: center;
     align-items: center;
 }
 
-.glzxb{background:url("../../img/wap/banners/glzx.png") no-repeat 100% 100%; }
-.gyljrb{background:url("../../img/wap/banners/gyljr.png") no-repeat 100% 100%;}
-.jrkjb{background:url("../../img/wap/banners/jrkj.png") no-repeat 100% 100%;}
-.tzglb{background:url("../../img/wap/banners/tzgl.png") no-repeat 100% 100%;}
-.zcglb{background:url("../../img/wap/banners/zcgl.png") no-repeat 100% 100%;}
-.zhkyb{background:url("../../img/wap/banners/zhky.png") no-repeat 100% 100%;}
+.glzxb{background-image:url("../../img/wap/banners/glzx.png"); }
+.gyljrb{background-image:url("../../img/wap/banners/gyljr.png");}
+.jrkjb{background-image:url("../../img/wap/banners/jrkj.png");}
+.tzglb{background-image:url("../../img/wap/banners/tzgl.png");}
+.zcglb{background-image:url("../../img/wap/banners/zcgl.png");}
+.zhkyb{background-image:url("../../img/wap/banners/zhky.png");}
 
 .business-banner-box{
-    width: 56%;
+    width: 77%;
     height: 59px;
-    padding: 15px 30px;
-    background:rgba(255,81,81,.8);
+    padding: 15px 15px;
+    background:rgba(255,81,81,.7);
     color: #ffffff;
     text-align: center;
+    align-items: center;
 }
 .business-banner-title{
     font-size: 1rem;
@@ -31,9 +33,7 @@
     display: inline-block;
 }
 .business-banner-detail{
-    font-size: 18px;
-    line-height: 30px;
-    margin-top: 25px;
+    font-size: 0.7rem;
 }
 
 .wapbusiness-content{

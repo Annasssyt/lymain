@@ -1,7 +1,10 @@
 .wapbanner-content{
     height: 160px;
-    background: #5DA0FB;
-    /*background:url("../../img/wap/banners/aboutbanner.png") no-repeat 100% 100% #5DA0FB;*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-color: #5DA0FB;
+    /*background-image:url("../../img/wap/banners/aboutbanner.png");*/
 }
 
 .introduce-content{
