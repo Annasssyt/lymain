@@ -319,4 +319,8 @@ body{
     justify-content: space-between;
     margin:15px auto
 }
+.partners-main>img{
+    width: 95px;
+    height: 31px;
+}
 

@@ -4,7 +4,7 @@
     background-position: center center;
     background-size: 100% 100%;
     background-color: #5DA0FB;
-    /*background-image:url("../../img/wap/banners/aboutbanner.png");*/
+    background-image:url("../../img/wap/banners/aboutbanner.png");
 }
 
 .introduce-content{
@@ -34,6 +34,10 @@
     border-radius: 8px;
     background: #F0F7FF;
     margin-top: 10px;
+}
+.team-box>img{
+    width: 58px;
+    height: 58px;
 }
 .name-box{
     font-weight: bold;
@@ -99,5 +103,9 @@
     margin:15px auto;
     text-align: center;
     line-height: 1.3rem;
+}
+.regional-main>img{
+    width: 264px;
+    height: 172px;
 }
 
