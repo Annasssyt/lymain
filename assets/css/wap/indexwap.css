@@ -317,10 +317,22 @@ body{
 .partners-main{
     width: 90%;
     justify-content: space-between;
-    margin:15px auto
+    margin:15px auto;
 }
 .partners-main>img{
     width: 95px;
     height: 31px;
+}
+
+.wap-footer-content{
+    background: #CCCBCB;
+    color:#3e3e3e;
+    text-align: center;
+    line-height: 1.8rem;
+    font-size: 0.7rem;
+}
+.wap-tel-box{
+    height: 100%;
+    align-items: center;
 }
 
