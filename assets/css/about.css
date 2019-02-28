@@ -146,11 +146,11 @@
     width: 1200px;
     height: 373px;
     margin-top: 60px;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 .m-box{
     height: 373px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     float: left;
 }
 .m-big-box{
@@ -180,7 +180,7 @@
     /*width: 200px;*/
     width: 150px;
     padding: 75px 25px 0;
-    height: 100%;
+    height: 298px;
     color: #ffffff;
     float: left;
     font-size: 14px;
@@ -254,6 +254,16 @@
 .map-content{
     height:950px;
     background: rgb(42,46,49);
+
+    background: -webkit-linear-gradient(#013749 , #012f5c , #013749); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#013749 , #012f5c , #013749); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#013749 , #012f5c , #013749); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#013749 , #012f5c , #013749); /* 标准的语法 */
+
+    /*background: -webkit-linear-gradient(19deg, #21D4FD, #2970ff); !* Safari 5.1 - 6.0 *!*/
+    /*background: -o-linear-gradient(19deg, #21D4FD, #2970ff); !* Opera 11.1 - 12.0 *!*/
+    /*background: -moz-linear-gradient(19deg, #21D4FD, #2970ff); !* Firefox 3.6 - 15 *!*/
+    /*background: linear-gradient(19deg, #21D4FD, #2970ff); !* 标准的语法 *!*/
 }
 .map-content>p{
     font-size: 20px;

@@ -20,6 +20,12 @@ var member= function () {
         // $(this).siblings('.m-big-box').show();
         $(this).siblings('.m-big-box').animate({width: 'toggle'},600);
     });
+    $('.m-small-box').unbind("mouseover").bind("mouseover",function () {
+        $(this).addClass('bounce');
+    });
+    $('.m-small-box').unbind("mouseout").bind("mouseout",function () {
+        $(this).removeClass('bounce');
+    });
 }
 member()
 
