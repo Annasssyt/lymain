@@ -72,12 +72,14 @@ var introduce= function () {
         var $this = $(this);
         var $index = $this.index();
         if($index == 0){
-            $(".row").css("left","220px")
+            // $(".row").css("left","220px")
+            $(".row").css("left","380px")
             $(".p-one").show();
             $(".p-two").hide();
             $(".p-three").hide();
         }else if($index == 1){
-            $(".row").css("left","560px")
+            // $(".row").css("left","560px")
+            $(".row").css("left","780px")
             $(".p-one").hide();
             $(".p-two").show();
             $(".p-three").hide();

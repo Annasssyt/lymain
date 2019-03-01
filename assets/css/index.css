@@ -357,7 +357,8 @@
     margin: 0 auto;
 }
 .partners-tabs{
-    width: 990px;
+    /*width: 990px;*/
+    width: 690px;
     height: 100px;
     justify-content: space-between;
     margin: 40px auto 0;
@@ -374,7 +375,8 @@
     position: relative;
     transition: all .6s cubic-bezier(.4,0,.2,1);
     margin-top: -23px;
-    left:220px;
+    /*left:220px;*/
+    left:380px;
 
 }
 .partners-detail{
