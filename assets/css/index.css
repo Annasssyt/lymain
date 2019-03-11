@@ -250,22 +250,12 @@
 /*旗下业务*/
 .business-content{
     height:700px;
-    /*background: -webkit-linear-gradient(19deg, #21D4FD, #B721FF); !* Safari 5.1 - 6.0 *!*/
-    /*background: -o-linear-gradient(19deg, #21D4FD, #B721FF); !* Opera 11.1 - 12.0 *!*/
-    /*background: -moz-linear-gradient(19deg, #21D4FD, #B721FF); !* Firefox 3.6 - 15 *!*/
-    /*background: linear-gradient(19deg, #21D4FD, #B721FF); !* 标准的语法 *!*/
+    background: url("../img/bg.png");
 
-    background: -webkit-linear-gradient(19deg, #6bc9ff, #86dbfd); /* Safari 5.1 - 6.0 */
-    background: -o-linear-gradient(19deg, #6bc9ff, #86dbfd); /* Opera 11.1 - 12.0 */
-    background: -moz-linear-gradient(19deg, #6bc9ff, #86dbfd); /* Firefox 3.6 - 15 */
-    background: linear-gradient(19deg, #6bc9ff, #86dbfd); /* 标准的语法 */
-
-    /*background: -webkit-linear-gradient(19deg, #D6E6FF, #F7EBF3); !* Safari 5.1 - 6.0 *!*/
-    /*background: -o-linear-gradient(19deg, #D6E6FF, #F7EBF3); !* Opera 11.1 - 12.0 *!*/
-    /*background: -moz-linear-gradient(19deg, #D6E6FF, #F7EBF3); !* Firefox 3.6 - 15 *!*/
-    /*background: linear-gradient(19deg, #D6E6FF, #F7EBF3); !* 标准的语法 *!*/
-
-    /*background: #f5f5f5;*/
+    /*background: -webkit-linear-gradient(19deg, #6bc9ff, #86dbfd); !* Safari 5.1 - 6.0 *!*/
+    /*background: -o-linear-gradient(19deg, #6bc9ff, #86dbfd); !* Opera 11.1 - 12.0 *!*/
+    /*background: -moz-linear-gradient(19deg, #6bc9ff, #86dbfd); !* Firefox 3.6 - 15 *!*/
+    /*background: linear-gradient(19deg, #6bc9ff, #86dbfd); !* 标准的语法 *!*/
 }
 .business-box{
     width: 1190px;
@@ -308,6 +298,9 @@
     z-index: 1;
     transition: all .1s linear;
 }
+/*.business-btn:hover .business-icon{*/
+    /*transform: rotate(360deg);*/
+/*}*/
 
 .business-btn-on{
     /*box-shadow: 0px 0px 10px 15px #dbdbdb;*/
@@ -318,6 +311,8 @@
 .business-icon{
     display: inline-block;
     margin: 30px auto;
+    transform: rotate(0deg);
+    transition: all 1s linear;
 }
 .business-title{
     font-size: 18px;

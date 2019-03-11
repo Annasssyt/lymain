@@ -8,6 +8,11 @@
 }
 .business-content{
     padding-bottom: 40px;
+    /*border-bottom: 2px dashed #cccccc;*/
+    border-bottom: 1px dashed #cccccc;
+}
+.business-content:last-of-type{
+    border-bottom: none;
 }
 .business-box{
     width: 1200px;
@@ -30,10 +35,18 @@
     line-height: 30px;
 }
 
+.business-banner-main{
+    width: 1200px;
+    height: 225px;
+    /*border: 1px solid red;*/
+    color: #666666;
+    text-align: center;
+}
 .business-banner-box{
     width: 1070px;
     height: 165px;
-    padding: 30px 65px;
+    /*padding: 30px 65px;*/
+    padding: 0 65px;
     /*background:rgba(255,81,81,.8);*/
     background:rgba(255,255,255,.5);
     /*color: #ffffff;*/
@@ -53,6 +66,25 @@
     margin-top: 25px;
 }
 .bg{
-    background: #f5f5f5!important;
-    /*background: #eeeeee!important;*/
+    /*background: #f5f5f5!important;*/
+    background: #ffffff!important;
+}
+
+/*.bline{*/
+    /*width: 100%;*/
+    /*border: 1px dashed #cccccc;*/
+    /*!*border: 1px dashed black;*!*/
+/*}*/
+
+.tx{
+    width: 1140px;
+    border-width:0px 30px 30px;
+    border-style:none solid solid;
+    border-color:transparent transparent rgba(255,255,255,.5);
+}
+.tx1{
+    width: 1140px;
+    border-width:30px 30px 0px;
+    border-style:solid solid none;
+    border-color:rgba(255,255,255,.5) transparent transparent;
 }

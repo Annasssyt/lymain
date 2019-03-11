@@ -1,6 +1,7 @@
 .news-banner{
     height: 450px;
-    background: url("../img/banner/xwzx.jpg") no-repeat center center;
+    /*background: url("../img/banner/xwzx.jpg") no-repeat center center;*/
+    background: url("../img/banner/xwzx.png") no-repeat center center;
 }
 
 .news-main{
