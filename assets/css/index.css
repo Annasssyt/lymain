@@ -86,9 +86,9 @@
     background: #E34745;
     text-align: center;
     transition: all .3s linear;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*bottom: 0;*/
  }
 /*.business-right-btn{*/
     /*position: absolute;*/
@@ -478,7 +478,7 @@
     margin-top: 15px;
 }
 .intro1{
-    display: none;
+    visibility: hidden;
 }
 
 

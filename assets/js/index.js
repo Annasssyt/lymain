@@ -218,7 +218,7 @@ var fadeInUp = function (c,anim,timeout) {
             if (topp >= $(".introduce-content").offset().top) {
                 fadeInUp($(".intro1"),"fadeInUp",100)
             }
-            if (topp >= $(".introduce-btn").offset().top) {
+            if (topp >= $(".introduce-img-box").offset().top) {
                 fadeInUp($(".business-box"),"fadeInUp",100)
             }
             if (topp >= $(".adv-title").offset().top) {
