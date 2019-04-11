@@ -268,7 +268,7 @@ body{
     justify-content: space-between;
     -webkit-justify-content: space-between;
     flex-wrap: wrap;
-    padding-top: 5%;
+    /*padding-top: 5%;*/
 }
 .advantage-box{
     width: 48%;
@@ -302,7 +302,7 @@ body{
     width: 25%;
     height: 87px;
     text-align: center;
-    margin-top: 21px;
+    /*margin-top: 21px;*/
 }
 .vision-box>p{
     margin-top: 15px;
@@ -322,7 +322,7 @@ body{
 }
 
 .partners-content{
-    height: 107px;
+    height: 120px;
 }
 .partners-main{
     width: 65%;

@@ -56,8 +56,6 @@
     padding-left: 4%;
 }
 
-
-
 .title{
     font-size: 1rem;
     text-align: center;
@@ -82,7 +80,7 @@
     width: 20%;
     height: 87px;
     text-align: center;
-    margin-top: 21px;
+    /*margin-top: 21px;*/
 }
 .values-box>p{
     margin-top: 15px;
