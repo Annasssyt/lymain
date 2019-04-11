@@ -1,0 +1,172 @@
+.join-banner{
+    width: 100%;
+    height: 540px;
+    background-image: url("../img/join/join_us_banner.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #eeeeee;
+    font-weight: bold;
+}
+@media screen and (min-width:1920px){
+    .join-banner{
+        background-size: 100% 100%;
+    }
+}
+.banner-text{
+    font-size: 48px;
+    padding-top: 200px;
+}
+.banner-text-small{
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.join-main{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.join-text-box{
+    width: 576px;
+    height: 420px;
+    box-sizing: border-box;
+    padding: 80px 40px;
+    color: #333333;
+    background: #f6f6f8;
+    float: left;
+}
+.join-text-box>p{
+    margin-bottom: 35px;
+}
+.join-img-box{
+    width: 624px;
+    height: 420px;
+    float: left;
+    overflow: hidden;
+}
+.join-img-box>img{
+    width: 100%;
+    height: 100%;
+    transition: all .6s cubic-bezier(.4,0,.2,1);
+    float: left;
+}
+.join-img-box>img:hover{
+    transform: scale(1.02);
+}
+
+.job-content{
+    background: #f6f6f8;
+}
+
+.job-main{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.job-box{
+    overflow: hidden;
+}
+
+.job-top{
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid #E5E5E5;
+    font-size: 16px;
+    color: #666666;
+    position: relative;
+}
+.job-name{
+    font-size: 32px;
+    color: #333333;
+    line-height: 90px;
+}
+.job-address{
+    margin-left: 60px;
+}
+.job-pay{
+    margin-left: 40px;
+}
+.open-job{
+    position: absolute;
+    right: 0;
+    top:24px;
+    cursor: pointer;
+    transition: all .3s linear;
+    transform: rotate(0deg);
+}
+.open-job:hover{
+    transform: rotate(180deg);
+}
+.close-job{
+    position: absolute;
+    right: 0;
+    top:24px;
+    cursor: pointer;
+    display: none;
+    transition: all .3s linear;
+    transform: rotate(0deg);
+}
+/*.close-job:hover{*/
+    /*transform: rotate(180deg);*/
+/*}*/
+.job-detail{
+    padding: 40px 0 10px;
+    display: none;
+    font-size: 20px;
+}
+ul{
+    color: #333333;
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+li{
+    list-style-type: circle;
+    line-height: 35px;
+}
+.point{
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background: #333333;
+    display: inline-block;
+    margin:0 10px;
+    position: relative;
+    top:-2px;
+}
+
+.now-content{
+    height: 303px;
+    background-image: url("../img/join/join_now_bg.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 238px;
+}
+.now-content>p{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333333;
+    font-size: 16px;
+}
+.red{
+    color: #E34745;
+}
+
+.more-job-btn{
+    display: block;
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #ffffff;
+    background: #E34745;
+    text-align: center;
+    transition: all .3s linear;
+    margin: 80px auto 0;
+}
+
+.more-job-btn:hover{
+    background: #D32F2E;
+}
+

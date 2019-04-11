@@ -1,89 +1,68 @@
-/*合作伙伴*/
-var introduce= function () {
-    $(".tab-box").on("click",function () {
+/*tab切换*/
+var tabChange= function () {
+    $(".banner-tab").on("click",function () {
         var $this = $(this);
         var $index = $this.index();
-        $this.addClass('tab-box-active').siblings().removeClass('tab-box-active');
+        $this.addClass('banner-tab-on').siblings().removeClass('banner-tab-on');
+        $('.con').hide();
         if($index == 0){
-            $(".row").css("left","100px")
-            $(".b-one").show();
-            $(".b-two").hide();
-            $(".b-three").hide();
-            $(".b-four").hide();
-            $(".b-five").hide();
-            $(".zg").addClass("zg-active");
-            $(".bl").removeClass("bl-active");
-            $(".gyl").removeClass("gyl-active");
-            $(".tzzx").removeClass("tzzx-active");
-            $(".ky").removeClass("ky-active");
+            $(".banner-title").text("资产管理");
+            $(".banner-detail").text("发挥综合金融优势，以资产价值实现为目的，积极开展资产增值运作，提高运营管理资产规模");
+            $(".business-banner").css({'backgroundImage':'url("assets/img/business/services_banner_1.jpg")'});
+            $('.zcgl').show();
         }else if($index == 1){
-            $(".row").css("left","330px")
-            $(".b-one").hide();
-            $(".b-two").show();
-            $(".b-three").hide();
-            $(".b-four").hide();
-            $(".b-five").hide();
-            $(".zg").removeClass("zg-active");
-            $(".bl").addClass("bl-active");
-            $(".gyl").removeClass("gyl-active");
-            $(".tzzx").removeClass("tzzx-active");
-            $(".ky").removeClass("ky-active");
+            $(".banner-title").text("投资管理");
+            $(".banner-detail").text("遵循价值投资和产融结合理念。通过对产业链上优质企业进行财务性或战略性投资，挖掘投融资 领域创新型业务机会，进行战略规划和投资布局");
+            $(".business-banner").css({'backgroundImage':'url("assets/img/business/services_banner_2.jpg")'});
+            $('.tzgl').show();
         }else if($index == 2){
-            $(".row").css("left","570px")
-            $(".b-one").hide();
-            $(".b-two").hide();
-            $(".b-three").show();
-            $(".b-four").hide();
-            $(".b-five").hide();
-            $(".zg").removeClass("zg-active");
-            $(".bl").removeClass("bl-active");
-            $(".gyl").addClass("gyl-active");
-            $(".tzzx").removeClass("tzzx-active");
-            $(".ky").removeClass("ky-active");
+            $(".banner-title").text("管理咨询");
+            $(".banner-detail").text("依托集团专业团队、资源渠道和管理经验，以客户至上的服务理念提供全面的问题解决方案");
+            $(".business-banner").css({'backgroundImage':'url("assets/img/business/services_banner_3.jpg")'});
+            $('.glzx').show();
         }else if($index == 3){
-            $(".row").css("left","810px")
-            $(".b-one").hide();
-            $(".b-two").hide();
-            $(".b-three").hide();
-            $(".b-four").show();
-            $(".b-five").hide();
-            $(".zg").removeClass("zg-active");
-            $(".bl").removeClass("bl-active");
-            $(".gyl").removeClass("gyl-active");
-            $(".tzzx").addClass("tzzx-active");
-            $(".ky").removeClass("ky-active");
+            $(".banner-title").text("金融科技");
+            $(".banner-detail").text("打造“科技+金融”生态圈，提供综合性金融科技解决方案");
+            $(".business-banner").css({'backgroundImage':'url("assets/img/business/services_banner_4.jpg")'});
+            $('.jrkj').show();
+        }else if($index == 4){
+            $(".banner-title").text("供应链金融");
+            $(".banner-detail").text("为产业链上下游企业提供全面的供应链金融解决方案，打造高效供应链生态圈，成为行业的 创新和领导者");
+            $(".business-banner").css({'backgroundImage':'url("assets/img/business/services_banner_5.jpg")'});
+            $('.gyljr').show();
         }else {
-            $(".row").css("left","1050px")
-            $(".b-one").hide();
-            $(".b-two").hide();
-            $(".b-three").hide();
-            $(".b-four").hide();
-            $(".b-five").show();
-            $(".zg").removeClass("zg-active");
-            $(".bl").removeClass("bl-active");
-            $(".gyl").removeClass("gyl-active");
-            $(".tzzx").removeClass("tzzx-active");
-            $(".ky").addClass("ky-active");
+            $(".banner-title").text("智慧康养");
+            $(".banner-detail").text("贯彻实施国家“健康中国”战略，结合集团及战略合作伙伴的产业基础优势，从健康管理、照护 服务、社区医疗、智慧康养、医疗金融等方面加强构筑“康养+”产业投资孵化模式，加快医疗大 健康产业及智慧康养事业发展");
+            $(".business-banner").css({'backgroundImage':'url("assets/img/business/services_banner_6.jpg")'});
+            $('.zhky').show();
         }
     });
 }
-introduce();
+tabChange();
 
-if(location.hash){
-    if(location.hash == '#jrkj'){
-        $(".tab-box").eq(1).trigger('click');
+window.onhashchange = function() {
+
+    if (location.hash) {
+        if (location.hash == '#tzgl') {
+            $(".banner-tab").eq(1).trigger('click');
+        }
+        if (location.hash == '#glzx') {
+            $(".banner-tab").eq(2).trigger('click');
+        }
+        if (location.hash == '#jrkj') {
+            $(".banner-tab").eq(3).trigger('click');
+        }
+        if (location.hash == '#gyljr') {
+            $(".banner-tab").eq(4).trigger('click');
+        }
+        if (location.hash == '#zhky') {
+            $(".banner-tab").eq(5).trigger('click');
+        }
+        location.hash = '';
     }
-    if(location.hash == '#gyl'){
-        $(".tab-box").eq(2).trigger('click');
-    }
-    if(location.hash == '#tzzx'){
-        $(".tab-box").eq(3).trigger('click');
-    }
-    if(location.hash == '#ky'){
-        $(".tab-box").eq(4).trigger('click');
-    }
-    location.hash = '';
+
 }
+
 
 var fadeInUp = function (c) {
 

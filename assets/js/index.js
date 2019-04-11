@@ -1,3 +1,56 @@
+var __iswhell = false;
+// window.onload = function () {
+//     var hei = $(window).height();//获取浏览器的高度
+//     wrap.style.height = hei + "px";//设置banner高度
+//     $(".advantage-box").height(hei*0.75);//设置优势板块高度
+//     console.log($(".advantage-box").height());
+//     $(".adv-icon").css({'marginTop':hei*0.27+'px'});
+//
+// };
+
+/*全屏翻页*/
+var fullpage= function () {
+    window.onload = resizeImages;
+    window.onresize = resizeImages;
+
+    function resizeImages() {
+        $(function (e) {
+            var screenWeight = document.documentElement.clientWidth;
+            var screenHeight = document.documentElement.clientHeight;
+            $("[name=pageImg]").css("width", screenWeight).css("height", screenHeight);
+        });
+    }
+
+    var wrap = document.getElementById("banner-wrap");
+    var hei = $(window).height();//获取浏览器的高度
+    wrap.style.height = hei + "px";//设置banner高度
+    // $(".advantage-box").height(hei*0.75);//设置优势板块高度
+
+    // console.log(hei,'===',$(".advantage-box").height);
+
+    //翻页控制
+    $('#banner-wrap').on('mousewheel DOMMouseScroll', function (e) {
+        if(__iswhell){
+            return false;
+        }else {
+            onMouseScroll(e)
+        }
+    });
+    function onMouseScroll(e){
+        e.preventDefault();
+        var wheel = e.originalEvent.wheelDelta || -e.originalEvent.detail;
+        var delta = Math.max(-1, Math.min(1, wheel) );
+        if(delta<0){//向下滚动
+            $("html, body").animate({scrollTop: $("#btop").offset().top }, {duration: 1000,easing: "swing"});
+            __iswhell = true;
+        }
+    }
+    $(".banner-down").unbind('click').bind('click',function () {
+        $("html, body").animate({scrollTop: $("#btop").offset().top }, {duration: 1000,easing: "swing"});
+    });
+}
+
+fullpage();
 
 /*nav*/
 var nav= function () {
@@ -6,6 +59,7 @@ var nav= function () {
     });
 }
 // nav()
+
 /*banner*/
 var lunbo = function () {
     // 获取第一个图片 节点对象
@@ -71,23 +125,16 @@ var introduce= function () {
     $(".partners-tab").on("click",function () {
         var $this = $(this);
         var $index = $this.index();
+        $(this).find('.partners-mask').addClass('partners-mask-on');
+        $(this).siblings().find('.partners-mask').removeClass('partners-mask-on');
         if($index == 0){
-            // $(".row").css("left","220px")
-            $(".row").css("left","380px")
+            $(".row").css("top","84px");
             $(".p-one").show();
             $(".p-two").hide();
-            $(".p-three").hide();
-        }else if($index == 1){
-            // $(".row").css("left","560px")
-            $(".row").css("left","780px")
+        }else{
+            $(".row").css("top","284px");
             $(".p-one").hide();
             $(".p-two").show();
-            $(".p-three").hide();
-        }else{
-            $(".row").css("left","920px")
-            $(".p-one").hide();
-            $(".p-two").hide();
-            $(".p-three").show();
         }
     });
 }
@@ -139,53 +186,53 @@ business();
 
 /*企业优势*/
 var advantage = function () {
-    $('.adv-icon').unbind("mouseover").bind("mouseover",function () {
-        $(this).addClass("rubberBand")
-    });
-    $('.adv-icon').unbind("mouseout").bind("mouseout",function () {
-        $(this).removeClass("rubberBand")
-    });
+    console.log(5)
+    $('.advantage-box').hover(function () {
+        $(this).addClass("advantage-box-on").siblings().removeClass("advantage-box-on");
+    })
+
 }
 advantage();
 
 /*飞入效果*/
-var fadeInUp = function (c,anim) {
-    var timeout = 200;
+var fadeInUp = function (c,anim,timeout) {
+    // var timeout;
     var index = 0;
     var addClassIn;
-    addClassIn = setInterval(function(){
-        if(index >= $(c).length){
+    addClassIn = setInterval(function () {
+        if (index >= $(c).length) {
             clearInterval(addClassIn);
             addClassIn = null;
-        }else {
-            $(c).eq(index++).show().css({'visibility':'visible'}).addClass(anim);
+        } else {
+            $(c).eq(index++).show().css({'visibility': 'visible'}).addClass(anim);
         }
-    },timeout);
-
+    }, timeout);
 }
 
-/*滚动条监听*/
 
-    $(document).ready(function(){//在文档加载完毕后执行
-        $(window).scroll(function(){//开始监听滚动条
+    /*滚动条监听*/
+    $(document).ready(function () {//在文档加载完毕后执行
+        $(window).scroll(function () {//开始监听滚动条
             //获取当前滚动条高度
             var topp = $(document).scrollTop();
-            if(topp > 520){
-                fadeInUp(".advantage-main-box","fadeInUp")
-                // $("#ly-header").css({"opacity":"1"});
+            if (topp >= $(".introduce-content").offset().top) {
+                fadeInUp($(".intro1"),"fadeInUp",100)
             }
-            // else{
-            //     $("#ly-header").css({"opacity":"1"});
+            if (topp >= $(".introduce-btn").offset().top) {
+                fadeInUp($(".business-box"),"fadeInUp",100)
+            }
+            if (topp >= $(".adv-title").offset().top) {
+                fadeInUp($(".vision-box"),"fadeInUp",100)
+            }
+            // if (topp >= $(".introduce-btn").offset().top) {
+            //     fadeInUp($(".business-box"),"fadeInUp",300)
             // }
-            if(topp > 700){
-                fadeInUp(".business-icon","zoomIn")
-            }
-            if(topp > 1400){
-                fadeInUp(".vision-main-box","fadeInUp")
-            }
+
         })
 
     })
+
+
 
 
 

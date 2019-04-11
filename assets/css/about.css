@@ -1,24 +1,61 @@
 .about-banner{
-    height: 450px;
-    background: url("../img/banner/gywm.png") no-repeat center center;
+    width: 100%;
+    height: 540px;
+    background-image: url("../img/about/about_banner_1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+@media screen and (min-width:1920px){
+    .about-banner{
+        background-size: 100% 100%;
+    }
+}
+.banner-tabs-main{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,.2);
+}
+.banner-tabs-box{
+    width: 1200px;
+    margin: 0 auto;
+}
+.banner-tab{
+    width: 300px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 16px;
+    color: #ffffff;
+    float: left;
+    cursor: pointer;
+}
+.banner-tab-on{
+    background: rgba(255,255,255,.2);
+}
+.banner-text{
+    font-size: 48px;
+    color: #EEEEEE;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 220px;
 }
 
 /*集团概况*/
-.introduce-content{
-    height:660px;
-}
+.introduce-content{}
 .introduce-box{
     width: 1200px;
+    height: 420px;
     margin: 0 auto;
     position: relative;
-    padding-bottom: 60px;
+    overflow: hidden;
 }
 .introduce-img-box{
-    width: 625px;
+    width: 624px;
     height: 420px;
     position: absolute;
     left: 0;
-    top: 55px;
     overflow: hidden;
 }
 .introduce-img-box>img{
@@ -27,41 +64,34 @@
     transition: all .6s cubic-bezier(.4,0,.2,1);
 }
 .introduce-img-box>img:hover{
-    transform: scale(1.1)
+    transform: scale(1.02)
 }
 .introduce-text-box{
-    width: 525px;
-    height: 370px;
-    padding: 25px 25px;
+    width: 495px;
+    height: 340px;
+    padding: 80px 40px 0;
     position: absolute;
     right: 0;
-    top: 55px;
-    line-height: 32px;
+    line-height: 22px;
     font-size: 16px;
-    background: #ff5151;
-    /*background: #ffbdbd;*/
-    color: #ffffff;
-    /*color: #333333;*/
+    background: #fafafa;
+    color: #333333;
 }
 /*核心团队*/
 .team-content{
     overflow: hidden;
-    background: #f0f0f0;
-    /*min-height: 1402px;*/
     min-height: 1170px;
+    display: none;
 }
 .team-main{
     width: 1200px;
     margin: 0 auto;
     position: relative;
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 .team-box{
     width: 100%;
     position: relative;
-    /*overflow: hidden;*/
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     display: none;
 }
 .photo-box{
@@ -71,6 +101,7 @@
     background:#bfbfbf;
     position: absolute;
     left: 35px;
+    z-index: 2;
 }
 .photo-box>img{
     width: 100%;
@@ -80,13 +111,16 @@
     height: 75px;
     font-weight: bold;
     position: relative;
-    left: 210px;
+    left: 180px;
     align-items: center;
+    -webkit-align-items: center;
 }
 .name{
-    width: 145px;
-    font-size: 34px;
-    color: #ff5151;
+    /*width: 145px;*/
+    font-size: 32px;
+    color: #E34745;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .job{
     font-size: 20px;
@@ -94,42 +128,42 @@
 }
 .team-detail{
     width: 100%;
-    min-height: 156px;
+    min-height: 200px;
     overflow: hidden;
-    background: #ffffff;
-    color: #444444;
-    box-shadow: 2px 3px 2px #CCCCCC;
-    /*box-shadow: -2px -2px 10px #82878f;*/
+    background: #f6f6f8;
+    color: #666666;
+    box-shadow:0px 4px 10px 0px rgba(238,238,238,1);
+    position: relative;
 }
 .team-detail-box{
-    width: 908px;
+    width: 803px;
     padding-top: 35px;
     margin-left: 200px;
-    line-height: 55px;
-    /*font-size: 18px;*/
+    line-height: 32px;
     font-size: 16px;
 }
 .short-detail{
     /*line-height: 55px;*/
     line-height: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 35px;
 }
 .long-detail{
     top: 40px;
     line-height: 30px;
     display: none;
-    /*padding-top: 30px;*/
-    padding: 20px 0 40px;
-    border-top: 1px solid #e5e5e5;
+    padding: 30px 0 36px;
+    border-top: 1px solid #eeeeee;
 }
 .long-detail span{
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 500;
+    color: #333333;
 }
 .slide-box{
     width: 1170px;
-    /*height: 60px;*/
-    align-items: center;
-    position: relative;
+    position: absolute;
+    right: 50px;
+    top:125px;
 }
 .slide-box>img{
     /*display: inline-block;*/
@@ -147,137 +181,58 @@
 
 /*成员企业*/
 .member-content{
-    height:660px;
+    display: none;
 }
 .member-main{
     width: 1200px;
     margin: 0 auto;
-    position: relative;
-    padding-bottom: 60px;
-}
-.member-box{
-    width: 1200px;
-    height: 373px;
-    margin-top: 60px;
-    /*overflow: hidden;*/
-}
-.m-box{
-    height: 373px;
-    /*overflow: hidden;*/
-    float: left;
-}
-.m-big-box{
-    width: 500px;
-    height: 100%;
     justify-content: space-between;
-    display: none;
-    float: left;
+    flex-wrap: wrap;
+}
+
+.member-box{
+    width:386px;
+    height:400px;
+    margin-bottom: 20px;
     position: relative;
 }
-.zeren{
-    background: url("../img/team/2.png") no-repeat right #ff5151;
+.member-box-big{
+    width:590px;
+    height:340px;
 }
-.zhuanye{
-    background: url("../img/team/1.png") no-repeat right #ff5151;
-}
-.tashi{
-    background: url("../img/team/3.png") no-repeat right #ff5151;
-}
-.jiji{
-    background: url("../img/team/4.png") no-repeat right #ff5151;
-}
-.chuangxin{
-    background: url("../img/team/5.png") no-repeat right #ff5151;
-}
-.m-big-text-box{
-    /*width: 200px;*/
-    width: 150px;
-    padding: 75px 25px 0;
-    height: 298px;
-    color: #ffffff;
-    float: left;
-    font-size: 14px;
-    background-color: #ff5151;
-    /*position: absolute;*/
-    /*left: 0;*/
-    /*top:0;*/
-    /*z-index: 2;*/
-    /*transform: translate3d(-50%,-50%,0);*/
-}
-.m-big-box-title{
-    /*width: 200px;*/
-    width: 150px;
-    height: 48px;
-    border-bottom: 2px solid #ffffff;
-    font-size: 24px;
-}
-.m-big-box-detail{
-    line-height: 30px;
-    margin-top: 15px;
-}
-.m-big-pic-box{
-    float: left;
-}
-.m-small-box{
-    width: 175px;
+.member-img{
+    width: 100%;
     height: 100%;
-    cursor: pointer;
-    text-align: center;
-    line-height: 35px;
-    float: left;
-    /*transition: all .8s ease;*/
 }
-/*.m-small-box:hover{*/
-    /*background-color: #d60b18!important;*/
-/*}*/
-.m-small-box>p:first-child{
-    margin-top: 145px;
+.member-text-box{
+    width: 100%;
+    height: 140px;
+    padding: 24px 30px 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background:rgba(51,51,51,.7);
     color: #ffffff;
-    font-size: 24px;
+    font-size: 14px;
+    box-sizing:border-box;
 }
-.m-small-box>p{
-    margin-top: 20px;
-    color: #3e3e3e;
-    font-size: 16px;
+.member-text-box>p{
+    margin-top: 16px;
 }
-.blur {
-    /*width: 50%;*/
-    /*height: 100%;*/
-    /*float: right;*/
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    -ms-filter: blur(2px);
-    filter: blur(2px);
-    transition: all .5s linear;
+.member-on{
+    background:rgba(227,71,69,.7);
 }
-.blur:hover{
-    -webkit-filter: blur(0);
-    -moz-filter: blur(0);
-    -ms-filter: blur(0);
-    filter: blur(0);
-    /*-webkit-filter: initial;*/
-    /*-moz-filter: initial;*/
-    /*-ms-filter: initial;*/
-    /*filter: initial;*/
-}
-
-
 
 /*区域布局*/
 .map-content{
     height:950px;
-    background: rgb(42,46,49);
-
-    /*background: -webkit-linear-gradient(#013749 , #012f5c , #013749); !* Safari 5.1 - 6.0 *!*/
-    /*background: -o-linear-gradient(#013749 , #012f5c , #013749); !* Opera 11.1 - 12.0 *!*/
-    /*background: -moz-linear-gradient(#013749 , #012f5c , #013749); !* Firefox 3.6 - 15 *!*/
-    /*background: linear-gradient(#013749 , #012f5c , #013749); !* 标准的语法 *!*/
+    display: none;
 }
 .map-content>p{
-    font-size: 20px;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    color: #ffffff;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    color: #333333;
     text-align: center;
 }
 .map-box{

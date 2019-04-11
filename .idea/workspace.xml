@@ -2,53 +2,192 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc7d12b6-af59-4133-8bba-612316fd21a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/business/gyljr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/join.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/about/about_banner_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/about/about_banner_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/about/about_banner_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/about/about_banner_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/business/ic_bljtszcgl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/business/ic_gyljr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/business/ic_gylst.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/business/ic_hzzy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/business/ic_jjfa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/business/ic_jrkj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/business/ic_kyfw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/business/ic_kyny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/business/ic_kyzz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/business/ic_rzfw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/business/ic_stzcgl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/business/ic_tzfw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/business/ic_zxfw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/business/ic_zxzcgl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/business/services_banner_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/business/services_banner_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/business/services_banner_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/business/services_banner_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/business/services_banner_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/business/services_banner_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/index/home_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/index/indexIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/index/jh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/index/jhls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/index/pic_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/index/pic_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/index/pic_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/index/pic_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/index/pic_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/index/pic_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/index/pic_Survey.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/index/qz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/index/qzcy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/join/ic_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/join/ic_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/join/join_now_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/join/join_us_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/join/pic_join_us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/news/new_details_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/news/new_details_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/news/new_details_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/news/new_details_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/news/news_banner_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/news/pic_new_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/news/pic_new_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/news/pic_new_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/news/pic_new_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/news/pic_new_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/news/pic_new_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/join.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/wapnav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/join.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/jquery.fullpage.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/sea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/seajs-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/busiDetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/busiDetail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/busiDetail.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/business.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/business.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/common.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/newDetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/newDetail.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/news.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/glzx.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/business/busiDetail/glzx.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/glzx1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/business/busiDetail/glzx1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/gyljr.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/business/busiDetail/gyljr.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/gyljr1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/business/busiDetail/gyljr1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/jrkj.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/business/busiDetail/jrkj.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/jrkj1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/business/busiDetail/jrkj1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/tzgl.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/business/busiDetail/tzgl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/tzgl1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/business/busiDetail/tzgl1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/zcgl.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/business/busiDetail/zcgl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/zcgl1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/business/busiDetail/zcgl1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/zcgl2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/business/busiDetail/zcgl2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/zhky.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/business/busiDetail/zhky.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/zhky1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/business/busiDetail/zhky1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/zhky2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/business/busiDetail/zhky2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/business/glzx.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/business/glzx.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/business/jrkj.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/business/jrkj.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/business/tzgl.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/business/tzgl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/business/zcgl.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/business/zcgl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/business/zhky.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/business/zhky.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icon/business/bl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icon/business/bl1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icon/business/gyl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icon/business/gyl1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icon/business/ky.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icon/business/ky1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icon/business/tzzx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icon/business/tzzx1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icon/business/zg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icon/business/zg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/glzx.html" beforeDir="false" afterPath="$PROJECT_DIR$/glzx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gyl.html" beforeDir="false" afterPath="$PROJECT_DIR$/gyl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/regional.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/regional.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/wap/aboutwap.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/wap/aboutwap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/wap/indexwap.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/wap/indexwap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/wap/wapbusiness.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/wap/wapbusiness.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/advantage/a1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/advantage/a2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/advantage/a3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/advantage/a4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/advantage/a5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/advantage/a6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/advantage/v1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/advantage/v2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/advantage/v3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/advantage/v4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/banner/fw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/banner/glzx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/banner/gyljr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/banner/gywm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/banner/gywm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/banner/i1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/banner/i2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/banner/i4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/banner/jrkj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/banner/tzgl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/banner/xwny.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/banner/xwzx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/banner/zcgl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/banner/zhky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/glzx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/glzx1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/gyljr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/gyljr1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/jrkj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/jrkj1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/tzgl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/tzgl1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/zcgl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/zcgl1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/zcgl2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/zhky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/zhky1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/busiDetail/zhky2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/glzx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/gyl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/gyl3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/gyljr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/jrkj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/jrkj3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/ky3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/tz3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/tzgl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/zcgl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/zcgl3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/zhky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/business/zx3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/phone1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/sdown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/sup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/weizhi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/intro1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/intro2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logo1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/news/tu1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/news/tu2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/news/tu3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/news/tu4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/news/tu5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/news/tu6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/news/tu7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/news/tu8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/news/tu9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/partners/p1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/partners/p2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/partners/p3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/partners/p4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/partners/p5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/partners/p6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/em.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/hhq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/pxz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/ql.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/wa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/zlk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/business.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/business.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/newDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/newDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/news.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/news.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/glzx.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyl.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jrkj.html" beforeDir="false" afterPath="$PROJECT_DIR$/jrkj.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ky.html" beforeDir="false" afterPath="$PROJECT_DIR$/ky.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jrkj.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ky.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/newDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/newDetail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tzgl.html" beforeDir="false" afterPath="$PROJECT_DIR$/tzgl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tzgl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wap/indexwap.html" beforeDir="false" afterPath="$PROJECT_DIR$/wap/indexwap.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wap/wapabout.html" beforeDir="false" afterPath="$PROJECT_DIR$/wap/wapabout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zcgl.html" beforeDir="false" afterPath="$PROJECT_DIR$/zcgl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wap/wapglzx.html" beforeDir="false" afterPath="$PROJECT_DIR$/wap/wapglzx.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wap/wapgyl.html" beforeDir="false" afterPath="$PROJECT_DIR$/wap/wapgyl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wap/wapjrkj.html" beforeDir="false" afterPath="$PROJECT_DIR$/wap/wapjrkj.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wap/waptzgl.html" beforeDir="false" afterPath="$PROJECT_DIR$/wap/waptzgl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wap/wapzcgl.html" beforeDir="false" afterPath="$PROJECT_DIR$/wap/wapzcgl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wap/wapzhky.html" beforeDir="false" afterPath="$PROJECT_DIR$/wap/wapzhky.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zcgl.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,9 +202,9 @@
     <session id="-695454220">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="30" />
-          <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.closed" value="35" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -92,13 +231,13 @@
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.72" value="1" />
-          <entry key="project.opened" value="39" />
+          <entry key="project.opened" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="97" />
-          <entry key="html" value="216" />
+          <entry key="css" value="98" />
+          <entry key="html" value="235" />
           <entry key="jpg" value="6" />
           <entry key="js" value="47" />
           <entry key="json" value="2" />
@@ -107,8 +246,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="97" />
-          <entry key="HTML" value="216" />
+          <entry key="CSS" value="98" />
+          <entry key="HTML" value="235" />
           <entry key="Image" value="142" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="47" />
@@ -116,18 +255,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="9385" />
-          <entry key="html" value="7148" />
+          <entry key="css" value="9471" />
+          <entry key="html" value="7167" />
           <entry key="js" value="1453" />
-          <entry key="txt" value="110" />
+          <entry key="txt" value="137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="9385" />
-          <entry key="HTML" value="7148" />
+          <entry key="CSS" value="9471" />
+          <entry key="HTML" value="7167" />
           <entry key="JavaScript" value="1453" />
-          <entry key="PLAIN_TEXT" value="110" />
+          <entry key="PLAIN_TEXT" value="137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -158,43 +297,44 @@
     <session id="-2113337759">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1490" />
-          <entry key="html" value="1242" />
-          <entry key="js" value="323" />
+          <entry key="css" value="1620" />
+          <entry key="html" value="1277" />
+          <entry key="js" value="406" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1490" />
-          <entry key="HTML" value="1242" />
-          <entry key="JavaScript" value="323" />
+          <entry key="CSS" value="1620" />
+          <entry key="HTML" value="1278" />
+          <entry key="JavaScript" value="405" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="5" />
-          <entry key="html" value="11" />
-          <entry key="jpg" value="1" />
-          <entry key="js" value="5" />
-          <entry key="png" value="1" />
+          <entry key="css" value="12" />
+          <entry key="html" value="16" />
+          <entry key="jpg" value="2" />
+          <entry key="js" value="11" />
+          <entry key="png" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="5" />
-          <entry key="HTML" value="11" />
-          <entry key="Image" value="2" />
-          <entry key="JavaScript" value="5" />
+          <entry key="CSS" value="12" />
+          <entry key="HTML" value="16" />
+          <entry key="Image" value="16" />
+          <entry key="JavaScript" value="11" />
         </counts>
       </usages-collector>
     </session>
@@ -230,73 +370,144 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1937631305">
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="4809" />
+          <entry key="html" value="3041" />
+          <entry key="js" value="2793" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="4809" />
+          <entry key="HTML" value="3042" />
+          <entry key="JavaScript" value="2792" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="30" />
+          <entry key="html" value="31" />
+          <entry key="jpg" value="3" />
+          <entry key="js" value="30" />
+          <entry key="png" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="30" />
+          <entry key="HTML" value="31" />
+          <entry key="Image" value="28" />
+          <entry key="JavaScript" value="30" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.19" value="3" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="18" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/business.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/join.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/news.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/news.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newDetail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/img/news/new_details_1.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/newDetail.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/img/partners/p1.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/assets/css/common.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-22">
-              <caret line="192" column="39" lean-forward="true" selection-start-line="192" selection-start-column="39" selection-end-line="192" selection-end-column="39" />
-              <folding>
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#4445#4451#0" expanded="true" />
-                <element signature="e#4468#4474#0" expanded="true" />
-                <element signature="e#4483#4489#0" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#2;n#div#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#3;n#div#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#4;n#div#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#5;n#div#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="280">
+              <caret line="242" column="13" lean-forward="true" selection-start-line="242" selection-start-column="13" selection-end-line="242" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about.html">
+        <entry file="file://$PROJECT_DIR$/assets/css/news.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="200" column="39" lean-forward="true" selection-start-line="200" selection-start-column="39" selection-end-line="200" selection-end-column="39" />
-              <folding>
-                <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#1;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="552">
+              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wap/wapabout.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2367">
-              <caret line="116" column="82" lean-forward="true" selection-start-line="116" selection-start-column="82" selection-end-line="116" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/img/partners/p3.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/img/intro2.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -305,44 +516,44 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>大型综合性</find>
-      <find>partners-main</find>
-      <find>partners-tabs</find>
-      <find>index</find>
-      <find>row</find>
-      <find>partners-tab</find>
-      <find>研发总监</find>
-      <find>吴敖</find>
-      <find>mx</find>
-      <find>from</find>
-      <find>bg</find>
-      <find>..business-banner-title</find>
-      <find>.business-banner-box</find>
-      <find>background: #fe946f;</find>
-      <find>background: url</find>
-      <find>.business-left</find>
-      <find>business-content</find>
-      <find>business-icon</find>
-      <find>business-btn</find>
-      <find>news-banner</find>
-      <find>集团动态</find>
-      <find>媒体新闻</find>
-      <find>html#mt</find>
-      <find>sdown</find>
-      <find>team-detail</find>
-      <find>team-box</find>
-      <find>j</find>
-      <find>hov</find>
-      <find>long-detail</find>
-      <find>.</find>
+      <find>navInit</find>
+      <find>news-img-box</find>
+      <find>mianFooter</find>
+      <find>prev</find>
+      <find>news-main</find>
+      <find>box-s</find>
+      <find>news</find>
+      <find>job-detail</find>
+      <find>news-box</find>
+      <find>fadeInUp</find>
+      <find>business-box</find>
+      <find>background-position</find>
+      <find>background-image</find>
+      <find>:hover</find>
+      <find>nav-active</find>
+      <find>nav-box</find>
+      <find>vision-content</find>
+      <find>.nav-box</find>
+      <find>business-main</find>
+      <find>ly-nav</find>
+      <find>.footer-bottom</find>
+      <find>introduce-box</find>
+      <find>nav-box-mini</find>
+      <find>target=&quot;_bl</find>
+      <find>.introduce-text-box</find>
+      <find>.vision-box</find>
+      <find>vision-box</find>
+      <find>.footer-box&gt;div</find>
+      <find>footer-bottom-box</find>
+      <find>.open-job</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -361,56 +572,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/html/index.html" />
-        <option value="$PROJECT_DIR$/css/common.css" />
-        <option value="$PROJECT_DIR$/css/index.css" />
-        <option value="$PROJECT_DIR$/html/about.html" />
-        <option value="$PROJECT_DIR$/html/demo.html" />
-        <option value="$PROJECT_DIR$/demo.html" />
-        <option value="$PROJECT_DIR$/fullpage.html" />
-        <option value="$PROJECT_DIR$/assets/css/regional.css" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/assets/js/common.js" />
-        <option value="$PROJECT_DIR$/assets/css/newDetail.css" />
         <option value="$PROJECT_DIR$/assets/css/starsvg.css" />
-        <option value="$PROJECT_DIR$/assets/js/business.js" />
-        <option value="$PROJECT_DIR$/assets/js/newDetail.js" />
-        <option value="$PROJECT_DIR$/assets/js/news.js" />
         <option value="$PROJECT_DIR$/business1.html" />
-        <option value="$PROJECT_DIR$/business.html" />
-        <option value="$PROJECT_DIR$/assets/css/business.css" />
         <option value="$PROJECT_DIR$/business-new.html" />
         <option value="$PROJECT_DIR$/assets/css/wap/swipeslider.css" />
         <option value="$PROJECT_DIR$/wap/index.html" />
         <option value="$PROJECT_DIR$/assets/js/wap/indexwap.js" />
-        <option value="$PROJECT_DIR$/newDetail.html" />
-        <option value="$PROJECT_DIR$/assets/css/common.css" />
-        <option value="$PROJECT_DIR$/assets/js/about.js" />
         <option value="$PROJECT_DIR$/assets/css/wap/aboutwap.css" />
         <option value="$PROJECT_DIR$/assets/css/wap/indexwap.css" />
-        <option value="$PROJECT_DIR$/wap/wapzcgl.html" />
-        <option value="$PROJECT_DIR$/wap/wapzhky.html" />
-        <option value="$PROJECT_DIR$/wap/waptzgl.html" />
-        <option value="$PROJECT_DIR$/wap/wapgyl.html" />
-        <option value="$PROJECT_DIR$/wap/wapglzx.html" />
-        <option value="$PROJECT_DIR$/wap/wapjrkj.html" />
-        <option value="$PROJECT_DIR$/assets/js/index.js" />
-        <option value="$PROJECT_DIR$/wap/indexwap.html" />
         <option value="$PROJECT_DIR$/assets/css/wap/wapbusiness.css" />
-        <option value="$PROJECT_DIR$/assets/css/busiDetail.css" />
         <option value="$PROJECT_DIR$/glzx.html" />
         <option value="$PROJECT_DIR$/gyl.html" />
         <option value="$PROJECT_DIR$/jrkj.html" />
         <option value="$PROJECT_DIR$/ky.html" />
         <option value="$PROJECT_DIR$/tzgl.html" />
+        <option value="$PROJECT_DIR$/wap/indexwap.html" />
+        <option value="$PROJECT_DIR$/wap/wapglzx.html" />
+        <option value="$PROJECT_DIR$/wap/wapgyl.html" />
+        <option value="$PROJECT_DIR$/wap/wapjrkj.html" />
+        <option value="$PROJECT_DIR$/wap/waptzgl.html" />
+        <option value="$PROJECT_DIR$/wap/wapzcgl.html" />
+        <option value="$PROJECT_DIR$/wap/wapzhky.html" />
+        <option value="$PROJECT_DIR$/wap/wapabout.html" />
+        <option value="$PROJECT_DIR$/assets/js/wap/wapnav.js" />
+        <option value="$PROJECT_DIR$/plugin/seajs-config.js" />
+        <option value="$PROJECT_DIR$/demo.html" />
+        <option value="$PROJECT_DIR$/assets/css/regional.css" />
         <option value="$PROJECT_DIR$/zcgl.html" />
+        <option value="$PROJECT_DIR$/assets/css/busiDetail.css" />
+        <option value="$PROJECT_DIR$/assets/js/join.css" />
+        <option value="$PROJECT_DIR$/assets/js/join.js" />
+        <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/join.html" />
+        <option value="$PROJECT_DIR$/news.html" />
+        <option value="$PROJECT_DIR$/assets/css/newDetail.css" />
+        <option value="$PROJECT_DIR$/business.html" />
+        <option value="$PROJECT_DIR$/assets/js/index.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/js/nav.js" />
+        <option value="$PROJECT_DIR$/assets/css/about.css" />
+        <option value="$PROJECT_DIR$/assets/js/about.js" />
+        <option value="$PROJECT_DIR$/assets/js/business.js" />
+        <option value="$PROJECT_DIR$/assets/css/business.css" />
         <option value="$PROJECT_DIR$/assets/css/index.css" />
         <option value="$PROJECT_DIR$/assets/css/news.css" />
-        <option value="$PROJECT_DIR$/news.html" />
-        <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/assets/css/about.css" />
-        <option value="$PROJECT_DIR$/wap/wapabout.html" />
+        <option value="$PROJECT_DIR$/assets/css/join.css" />
+        <option value="$PROJECT_DIR$/assets/js/news.js" />
+        <option value="$PROJECT_DIR$/newDetail.html" />
+        <option value="$PROJECT_DIR$/assets/js/newDetail.js" />
+        <option value="$PROJECT_DIR$/assets/css/common.css" />
       </list>
     </option>
   </component>
@@ -455,13 +667,6 @@
               <item name="ly-html" type="b2602c69:ProjectViewProjectNode" />
               <item name="ly-html" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="wap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly-html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly-html" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -469,26 +674,13 @@
               <item name="ly-html" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="business" type="462c0819:PsiDirectoryNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ly-html" type="b2602c69:ProjectViewProjectNode" />
               <item name="ly-html" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="icon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly-html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly-html" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="partners" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly-html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly-html" type="462c0819:PsiDirectoryNode" />
-              <item name="wap" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -507,18 +699,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\seajs实验\ly-html\assets\img" />
+      <recent name="D:\project\seajs实验\ly-html\assets\js" />
       <recent name="D:\project\liangyi\ly-html\assets\img\wap\banners" />
       <recent name="D:\project\liangyi\ly-html\assets\img\wap" />
       <recent name="D:\project\liangyi\ly-html\assets\img\business" />
-      <recent name="D:\project\liangyi\ly-html\assets\img\team" />
-      <recent name="D:\project\liangyi\ly-html\assets\img\advantage" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\project\liangyi\ly-html\assets\img\business" />
-      <recent name="D:\project\liangyi\ly-html\assets\img\business\busiDetail" />
-      <recent name="D:\project\liangyi\ly-html\assets\img\wap\team" />
-      <recent name="D:\project\liangyi\ly-html\assets\img\team" />
-      <recent name="D:\project\liangyi\ly-html\assets\img" />
+      <recent name="D:\project\seajs实验\ly-html\assets\img\news" />
+      <recent name="D:\project\seajs实验\ly-html\assets\img\business" />
+      <recent name="D:\project\seajs实验\ly-html\assets\img\join" />
+      <recent name="D:\project\seajs实验\ly-html\assets\img\index" />
+      <recent name="D:\project\seajs实验\ly-html\assets\img\about" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -591,6 +783,29 @@
       <workItem from="1552008909290" duration="5445000" />
       <workItem from="1552015969662" duration="4920000" />
       <workItem from="1552032998685" duration="8820000" />
+      <workItem from="1552978931322" duration="1277000" />
+      <workItem from="1553050873498" duration="8770000" />
+      <workItem from="1553157696094" duration="743000" />
+      <workItem from="1553563571737" duration="1838000" />
+      <workItem from="1553650327325" duration="9053000" />
+      <workItem from="1553736953478" duration="11485000" />
+      <workItem from="1553823756986" duration="20039000" />
+      <workItem from="1553929124250" duration="11307000" />
+      <workItem from="1554080648950" duration="21503000" />
+      <workItem from="1554167286719" duration="27798000" />
+      <workItem from="1554253797106" duration="11153000" />
+      <workItem from="1554271363555" duration="980000" />
+      <workItem from="1554272835649" duration="14263000" />
+      <workItem from="1554289808545" duration="4232000" />
+      <workItem from="1554340356824" duration="20228000" />
+      <workItem from="1554374338203" duration="192000" />
+      <workItem from="1554374916841" duration="606000" />
+      <workItem from="1554686503520" duration="19900000" />
+      <workItem from="1554721544508" duration="370000" />
+      <workItem from="1554773791895" duration="22517000" />
+      <workItem from="1554859472980" duration="27284000" />
+      <workItem from="1554906097845" duration="7005000" />
+      <workItem from="1554948812521" duration="6039000" />
     </task>
     <task id="LOCAL-00001" summary="金融科技图片">
       <created>1548666891514</created>
@@ -739,20 +954,28 @@
       <option name="project" value="LOCAL" />
       <updated>1551851291715</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="不晓得是好多版了。。。">
+      <created>1552282896682</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1552282896682</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="552025000" />
+    <option name="totallyTimeSpent" value="810039000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12961012" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16649105" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.21172638" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.48534203" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -760,7 +983,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286334" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -788,292 +1011,249 @@
     <MESSAGE value="终板2" />
     <MESSAGE value="终板" />
     <MESSAGE value="终板4" />
-    <option name="LAST_COMMIT_MESSAGE" value="终板4" />
+    <MESSAGE value="不晓得是好多版了。。。" />
+    <option name="LAST_COMMIT_MESSAGE" value="不晓得是好多版了。。。" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/css/common.css">
+    <entry file="file://$PROJECT_DIR$/assets/img/index/pic_1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/partners/p1.png" />
+    <entry file="file://$PROJECT_DIR$/assets/css/regional.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="165" column="23" lean-forward="true" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="23" />
+        <state relative-caret-position="1150">
+          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/about.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/zcgl.html" />
+    <entry file="file://$PROJECT_DIR$/assets/img/business/ic_tzfw.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/glzx.html" />
+    <entry file="file://$PROJECT_DIR$/assets/img/bg.png" />
+    <entry file="file://$PROJECT_DIR$/assets/img/bg2.png" />
     <entry file="file://$PROJECT_DIR$/assets/img/map_black_bg.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/regional.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/wap/quyu.png">
+    <entry file="file://$PROJECT_DIR$/assets/img/logo22.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/wap/indexwap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="330" column="24" lean-forward="true" selection-start-line="330" selection-start-column="24" selection-end-line="330" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/wap/aboutwap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2277">
-          <caret line="108" column="18" lean-forward="true" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wap/wapzcgl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="81" column="6" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wap/wapzhky.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="36" column="79" lean-forward="true" selection-start-line="36" selection-start-column="79" selection-end-line="36" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wap/waptzgl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="48" column="50" lean-forward="true" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wap/wapgyl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1472">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wap/wapjrkj.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1587">
-          <caret line="69" column="70" lean-forward="true" selection-start-line="69" selection-start-column="70" selection-end-line="69" selection-end-column="70" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/img/logo1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/intro1.png" />
-    <entry file="file://$PROJECT_DIR$/assets/img/wap/logo1.png">
+    <entry file="file://$PROJECT_DIR$/assets/img/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1863">
-          <caret line="81" column="41" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/partners/p2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/wap/wapbusiness.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="48" column="15" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/icon/business/bl.png" />
-    <entry file="file://$PROJECT_DIR$/assets/img/icon/business/gyl.png" />
-    <entry file="file://$PROJECT_DIR$/assets/img/icon/business/bl1.png" />
-    <entry file="file://$PROJECT_DIR$/wap/indexwap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/business/gyl3.png">
+    <entry file="file://$PROJECT_DIR$/assets/img/code.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/busiDetail.css">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/join.css" />
+    <entry file="file://$PROJECT_DIR$/assets/img/join/ic_open.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/join/join_now_bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/join.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wap/wapglzx.html">
+    <entry file="file://$PROJECT_DIR$/assets/img/index/banneri.png" />
+    <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="50" column="37" lean-forward="true" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/business/tz3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/glzx.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="81" column="11" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zcgl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="78" column="57" selection-start-line="78" selection-start-column="57" selection-end-line="78" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tzgl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="75" column="53" selection-start-line="75" selection-start-column="53" selection-end-line="75" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ky.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jrkj.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="74" column="53" selection-start-line="74" selection-start-column="53" selection-end-line="74" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gyl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="83" column="10" lean-forward="true" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/business/jrkj.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/bg2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/business/glzx.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/business/tzgl.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/business/zcgl.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/business/zhky.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/business/gyljr.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/intro2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/partners/p3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/news.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-460">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2300">
-          <caret line="100" column="11" lean-forward="true" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
+        <state relative-caret-position="552">
+          <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
           <folding>
-            <element signature="n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/newDetail.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/join.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="261" column="33" selection-start-line="261" selection-start-column="33" selection-end-line="261" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/index/jhls.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/index/home_banner.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/index/jh.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/index/qzcy.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/index/qz.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/index/pic_Survey.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/about/about_banner1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/about/about_banner_1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/about/about_banner_2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/about/about_banner_3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/about/about_banner_4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5152">
+          <caret line="224" column="39" selection-start-line="224" selection-start-column="39" selection-end-line="224" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="192" column="39" lean-forward="true" selection-start-line="192" selection-start-column="39" selection-end-line="192" selection-end-column="39" />
+        <state relative-caret-position="-224">
+          <caret line="149" column="18" lean-forward="true" selection-start-line="149" selection-start-column="18" selection-end-line="149" selection-end-column="18" />
           <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4445#4451#0" expanded="true" />
-            <element signature="e#4468#4474#0" expanded="true" />
-            <element signature="e#4483#4489#0" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#div#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#3;n#div#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#4;n#div#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#5;n#div#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/index.css">
+    <entry file="file://$PROJECT_DIR$/assets/js/nav.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8372">
-          <caret line="364" column="13" lean-forward="true" selection-start-line="364" selection-start-column="13" selection-end-line="364" selection-end-column="13" />
+        <state relative-caret-position="273">
+          <caret line="149" column="38" selection-start-line="149" selection-start-column="32" selection-end-line="149" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/about.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="103" column="1" selection-start-line="103" selection-end-line="103" selection-end-column="1" />
+        <state relative-caret-position="322">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wap/wapabout.html">
+    <entry file="file://$PROJECT_DIR$/assets/js/about.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2367">
-          <caret line="116" column="82" lean-forward="true" selection-start-line="116" selection-start-column="82" selection-end-line="116" selection-end-column="82" />
+        <state relative-caret-position="206">
+          <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
+    <entry file="file://$PROJECT_DIR$/assets/js/business.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="200" column="39" lean-forward="true" selection-start-line="200" selection-start-column="39" selection-end-line="200" selection-end-column="39" />
+        <state relative-caret-position="141">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/business.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/news/news_banner_1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/news.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/join.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/news/new_details_1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
           <folding>
-            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#1;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/bg.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/assets/js/news.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/intro1.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/assets/js/newDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/partners/p1.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/assets/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="242" column="13" lean-forward="true" selection-start-line="242" selection-start-column="13" selection-end-line="242" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

@@ -5,7 +5,8 @@ a,img{border:0;text-decoration:none;}
 *html .clearfix{height:1%}
 
 .map-service-right{margin-left:414px;padding-top:60px}
-.china-map{width:748px;height:618px;background:url('../img/map_black_bg.png') center no-repeat;position:relative;}
+/*.china-map{width:748px;height:618px;background:url('../img/map_black_bg.png') center no-repeat;position:relative;}*/
+.china-map{width:748px;height:618px;background:url('../img/about/map_black_bg.png') center no-repeat;position:relative;}
 .region-list{position:absolute;left:0;top:0}
 
 @-webkit-keyframes warn{
@@ -37,8 +38,8 @@ a,img{border:0;text-decoration:none;}
 .area-box .delay-09{-webkit-animation-delay:-.8s;-moz-animation-delay:-.8s;-o-animation-delay:-.8s;animation-delay:-.8s}
 .area-box .delay-10{-webkit-animation-delay:-1.2s;-moz-animation-delay:-1.2s;-o-animation-delay:-1.2s;animation-delay:-1.2s}
 .area-box .delay-11{-webkit-animation-delay:4s;-moz-animation-delay:4s;-o-animation-delay:4s;animation-delay:4s}
-.region-list.active .area-box .dot{background:#d60b18}
-.region-list.active .area-box .pulse{border-color:#d60b18;top:-39px;left:-39px;height:88px;width:88px;-webkit-box-shadow:0 0 12px #e50b19,0 0 20px #e50b19 inset;-moz-box-shadow:0 0 12px #e50b19,0 0 20px #e50b19 inset;box-shadow:0 0 12px #e50b19,0 0 20px #e50b19 inset}
+.region-list.active .area-box .dot{background:#E34745}
+.region-list.active .area-box .pulse{border-color:#E34745;top:-39px;left:-39px;height:88px;width:88px;-webkit-box-shadow:0 0 12px #E34745,0 0 20px #E34745 inset;-moz-box-shadow:0 0 12px #E34745,0 0 20px #E34745 inset;box-shadow:0 0 12px #E34745,0 0 20px #E34745 inset}
 .region-list.waite .area-box .dot{background:#f90}
 .region-list.waite .area-box .pulse{border-color:#f90}
 .show-regin{position:absolute;left:2px;height:0;top:0;width:11px;opacity:0;-o-transition:all .5s ease-in-out;-webkit-transition:all .5s ease-in-out;-moz-transition:all .5s ease-in-out;transition:all .5s ease-in-out}
@@ -48,8 +49,8 @@ a,img{border:0;text-decoration:none;}
 .postition-6 .show-regin span{left:-72px}
 .area-box{z-index:77}
 .show-regin{z-index:66}
-.region-list.active .show-regin span{position:relative;color:#ccc}
-.region-list.waite .show-regin span{color:#ccc}
+.region-list.active .show-regin span{position:relative;color:#333}
+.region-list.waite .show-regin span{color:#333}
 .postition-1{left:302px;top:308px}
 .postition-7{left:401px;top:403px}
 .postition-3{left:450px;top:420px}

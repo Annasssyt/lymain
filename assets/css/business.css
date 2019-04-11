@@ -1,127 +1,115 @@
-body{
-    background: #f0f0f0;
-}
 .business-banner{
-    height: 450px;
-    background: url("../img/banner/fw.jpg") no-repeat center center;
+    width: 100%;
+    height: 540px;
+    background-image: url("../img/business/services_banner_1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
 }
-
-/*战略伙伴*/
-.business-content{
-    padding-bottom: 40px;
+@media screen and (min-width:1920px){
+    .business-banner{
+        background-size: 100% 100%;
+    }
 }
-.business-box{
+.banner-tabs-main{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,.2);
+}
+.banner-tabs-box{
     width: 1200px;
     margin: 0 auto;
-    padding-bottom: 40px;
 }
-.business-tabs{
-    width: 100%;
-    height: 270px;
-    overflow: hidden;
-    justify-content: space-between;
-    margin: -68px auto 40px;
-}
-.tab-box{
-    width: 238px;
-    height: 265px;
-    background: #ffffff;
-    cursor: pointer;
-    border-top: 5px solid #ffffff;
-    transition: all .2s linear;
-    box-shadow: 0 2px 3px #ccc;
-    float: left;
-    display: none;
-    margin: 0 1px;
-}
-/*.tab-box:last-child{*/
-    /*margin-right: 0;*/
-/*}*/
-.tab-box>p{
-    font-size: 22px;
-    color: #666666;
+.banner-tab{
+    width: 200px;
     text-align: center;
-    font-weight: bold;
-    margin-top: 10px;
-}
-.tab-icon{
-    width: 100px;
-    height: 100px;
-    margin: 55px auto 0;
-}
-.bl{
-    background: url("../img/icon/business/bl.png") no-repeat center center;
-}
-.bl-active{
-    background-image: url("../img/icon/business/bl1.png");
-}
-.gyl{
-    background: url("../img/icon/business/gyl.png") no-repeat center center;
-}
-.gyl-active{
-    background-image: url("../img/icon/business/gyl1.png");
-}
-.ky{
-    background: url("../img/icon/business/ky.png") no-repeat center center;
-}
-.ky-active{
-    background-image: url("../img/icon/business/ky1.png");
-}
-.tzzx{
-    background: url("../img/icon/business/tzzx.png") no-repeat center center;
-}
-.tzzx-active{
-    background-image: url("../img/icon/business/tzzx1.png");
-}
-.zg{
-    background: url("../img/icon/business/zg.png") no-repeat center center;
-}
-.zg-active{
-    background-image: url("../img/icon/business/zg1.png");
-}
-.tab-box-active{
-    border-top: 5px solid #d60b18;
-}
-.tab-box:hover{
-    border-top: 5px solid #d60b18;
-}
-.row{
-    width: 0;
-    height: 0;
-    border-width: 33px;
-    border-style: solid;
-    border-color: transparent  transparent rgb(42,46,49) transparent;
-    position: relative;
-    transition: all .6s cubic-bezier(.4,0,.2,1);
-    margin-top: -23px;
-    left:100px;
-}
-.business-detail{
-    width: 920px;
-    padding: 100px 140px;
-    background: rgb(42,46,49);
-    box-shadow: 0 5px 5px #e6e6e6;
-    border-radius: 40px;
-}
-.b{
+    line-height: 80px;
     font-size: 16px;
     color: #ffffff;
-    line-height: 45px;
-    text-indent: 2em;
-    text-align: center;
+    float: left;
+    cursor: pointer;
 }
-.b>img{
-    margin: 0 auto 60px;
+.banner-tab-on{
+    background: rgba(255,255,255,.2);
 }
-.b-detail{
+.banner-text{
+    width: 835px;
+    margin: 0 auto;
+    padding-top: 200px;
+    color: #EEEEEE;
     text-align: left;
 }
-.b-two,.b-three,.b-four,.b-five{
+.banner-title{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 48px;
+}
+.banner-detail{
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.bg-color{
+    background: #f6f6f8;
+}
+
+/*==*/
+.business-content{
+    width: 100%;
+    height: 600px;
+}
+.business-box{
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    align-items: center;
+    -webkit-align-items: center;
+}
+.text-box{
+    width: 510px;
+}
+.bb-title{
+    color: #333333;
+    font-size: 32px;
+    line-height: 45px;
+}
+.bb-detail{
+    color:#666666;
+    font-size: 16px;
+    margin-top: 40px;
+    line-height: 22px;
+}
+
+.business-banner-main{
+    width: 1200px;
+    height: 225px;
+    color: #666666;
+    text-align: center;
+}
+.business-banner-box{
+    width: 1070px;
+    height: 165px;
+    padding: 0 65px;
+    background:rgba(255,255,255,.5);
+    color: #666666;
+    text-align: center;
+}
+.business-banner-title{
+    font-size: 24px;
+    line-height: 55px;
+    border-bottom: 2px solid #ff5151;
+    display: inline-block;
+}
+.business-banner-detail{
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+.con{
     display: none;
 }
-.b-main{
-    visibility:hidden;
-
-    /*display: none;*/
-}
-

@@ -1,52 +1,47 @@
-.news-banner{
-    height: 400px;
-    background: url("../img/banner/xwny.jpg") no-repeat center center;
-}
 
+body{
+    background: #f6f6f8;
+}
 .news-main{
     width: 1200px;
     margin: 0 auto;
-    padding-bottom: 120px;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-top: 60px;
+    padding: 40px;
+    box-sizing:border-box;
+    background: #ffffff;
+    box-shadow:0px 0px 10px 0px rgba(229,229,229,1);
 }
 .prev{
-    font-size: 18px;
-    color: #666666;
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #999999;
+    padding-top: 80px;
+    line-height: 100px;
 }
 .prev>a{
     color: #666666;
     transition: all .6s ease;
 }
 .prev>a:hover{
-    color: #d60b18;
+    color: #E34745;
 }
-.news-box{
-    width: 1160px;
-    margin: 20px auto;
-}
-.news-header{
-    padding-bottom: 25px;
-    border-bottom: 2px solid #d60b18;
-    text-align: center;
-}
+
 .news-title{
-    width: 740px;
-    color: #be3d3d;
+    color: #333333;
     font-size: 24px;
-    margin: 0 auto;
+    line-height: 33px;
+    font-weight: bold;
 }
 .news-time{
-    font-size: 18px;
-    color: #666666;
+    font-size: 14px;
+    color: #999999;
     margin-top: 20px;
 }
 .news-detail{
     text-indent: 2em;
-    color: #666666;
-    font-size: 18px;
-    padding-top: 55px;
+    color: #333333;
+    font-size: 16px;
+    padding-top: 23px;
     line-height: 35px;
     text-align: center;
 }
@@ -55,4 +50,35 @@
 }
 .nd{
     display: none;
+}
+
+.btn-box{
+    width: 1200px;
+    margin: 40px auto 100px;
+    overflow: hidden;
+    line-height: 60px;
+    font-size: 16px;
+    background: #ffffff;
+}
+.prev-news{
+    color: #333333;
+    border-bottom: 2px solid #f6f6f8;
+    background: #ffffff;
+    padding-left: 40px;
+    cursor: pointer;
+    /*cursor: not-allowed;*/
+    transition: all .3s linear;
+}
+.next-news{
+    color: #333333;
+    padding-left: 40px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.prev-news:hover{
+    color: #E34745;
+}
+.next-news:hover{
+    color: #E34745;
 }
