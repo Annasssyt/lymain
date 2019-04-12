@@ -226,8 +226,9 @@
 
 /*区域布局*/
 .map-content{
-    height:950px;
+    /*height:950px;*/
     display: none;
+    padding-bottom: 0!important;
 }
 .map-content>p{
     font-size: 16px;
@@ -237,8 +238,12 @@
     text-align: center;
 }
 .map-box{
-    width: 750px;
+    /*width: 750px;*/
+    width: 100%;
     margin: 0 auto;
     position: relative;
-    padding-bottom: 60px;
+    padding: 40px 0 60px;
+    text-align: center;
+    background: #f6f6f8;
+
 }
