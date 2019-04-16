@@ -32,13 +32,34 @@ var tabChange= function () {
             $('.gyljr').show();
         }else {
             $(".banner-title").text("智慧康养");
-            $(".banner-detail").text("贯彻实施国家“健康中国”战略，结合集团及战略合作伙伴的产业基础优势，从健康管理、照护 服务、社区医疗、智慧康养、医疗金融等方面加强构筑“康养+”产业投资孵化模式，加快医疗大 健康产业及智慧康养事业发展");
+            // $(".banner-detail").text("贯彻实施国家“健康中国”战略，结合集团及战略合作伙伴的产业基础优势，从健康管理、照护 服务、社区医疗、智慧康养、医疗金融等方面加强构筑“康养+”产业投资孵化模式，加快医疗大 健康产业及智慧康养事业发展");
+            $(".banner-detail").text("结合产业基础优势，从健康管理、养老照护、社区医疗、智慧康养、康养金融等方面加强构筑“康养+”产业投资孵化模式，形成智慧康养产业业态闭环");
             $(".business-banner").css({'backgroundImage':'url("assets/img/business/services_banner_6.jpg")'});
             $('.zhky').show();
         }
     });
 }
 tabChange();
+
+if (location.hash) {
+    if (location.hash == '#tzgl') {
+        $(".banner-tab").eq(1).trigger('click');
+    }
+    if (location.hash == '#glzx') {
+        $(".banner-tab").eq(2).trigger('click');
+    }
+    if (location.hash == '#jrkj') {
+        $(".banner-tab").eq(3).trigger('click');
+    }
+    if (location.hash == '#gyljr') {
+        $(".banner-tab").eq(4).trigger('click');
+    }
+    if (location.hash == '#zhky') {
+        $(".banner-tab").eq(5).trigger('click');
+    }
+    location.hash = '';
+}
+
 
 window.onhashchange = function() {
 

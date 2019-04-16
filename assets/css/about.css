@@ -68,11 +68,11 @@
 }
 .introduce-text-box{
     width: 495px;
-    height: 340px;
-    padding: 80px 40px 0;
+    height: 370px;
+    padding: 50px 40px 0;
     position: absolute;
     right: 0;
-    line-height: 22px;
+    line-height: 32px;
     font-size: 16px;
     background: #fafafa;
     color: #333333;
@@ -152,7 +152,7 @@
     top: 40px;
     line-height: 30px;
     display: none;
-    padding: 30px 0 36px;
+    padding: 30px 0 36px 30px;
     border-top: 1px solid #eeeeee;
 }
 .long-detail span{
@@ -176,9 +176,6 @@
 .sup{
     display: none;
 }
-/*.sdown{*/
-    /*display: none;*/
-/*}*/
 
 /*成员企业*/
 .member-content{

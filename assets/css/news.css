@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     text-align: center;
     color: #eeeeee;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 @media screen and (min-width:1920px){
     .news-banner{
@@ -16,6 +16,7 @@
 .banner-text{
     font-size: 48px;
     padding-top: 200px;
+    font-weight: bold;
 }
 .banner-text-small{
     font-size: 20px;

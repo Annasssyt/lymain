@@ -175,6 +175,7 @@ a{
     color: #eeeeee;
     line-height: 34px;
     margin-top: 10px;
+    text-transform:uppercase
 }
 
 /*footer*/
@@ -224,12 +225,13 @@ a{
     /*line-height: 16px;*/
     transition: all .6s ease;
     margin-bottom: 20px;
-    text-decoration: none;
+    /*text-decoration: none;*/
     /*border-bottom: 1px solid #666666;*/
 }
 .footer-box>div>a:hover{
+    color: #D32F2E;
     /*color: #ff5151;*/
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 
 .lx{

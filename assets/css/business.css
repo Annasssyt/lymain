@@ -5,6 +5,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
+    /*font-weight: bold;*/
 }
 @media screen and (min-width:1920px){
     .business-banner{
@@ -49,6 +50,7 @@
 .banner-detail{
     font-size: 20px;
     margin-top: 40px;
+    line-height: 32px;
 }
 
 .bg-color{

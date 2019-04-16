@@ -10,7 +10,7 @@
       <change afterPath="$PROJECT_DIR$/assets/img/wap/about/ic_close_introduce.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/img/wap/about/ic_open_introduce.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/img/wap/about/map_black_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/wap/about/pic_group_profile  .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/wap/about/pic_group_profile.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/img/wap/about/pic_value_1.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/img/wap/about/pic_value_2.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/img/wap/about/pic_value_3.png" afterDir="false" />
@@ -79,10 +79,17 @@
       <change afterPath="$PROJECT_DIR$/assets/img/wap/news/pic_new_3.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/img/wap/news/pic_new_4.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/img/wap/news/pic_new_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/seajs-config-wap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/regional.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/regional.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/business.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/business.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/join.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/join.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/news.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/wap/aboutwap.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/wap/aboutwap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/wap/indexwap.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/wap/indexwap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/wap/wapbusiness.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/wap/wapbusiness.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/img/wap/business/b/bt.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/img/wap/business/b/bt1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/img/wap/business/b/dbx.png" beforeDir="false" />
@@ -107,8 +114,24 @@
       <change beforePath="$PROJECT_DIR$/assets/img/wap/business/tzigl.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/img/wap/business/zcgl.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/img/wap/business/zhky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/business.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/business.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/nav.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/wap/indexwap.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/wap/indexwap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/wapnav.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/wapnav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/business.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/join.html" beforeDir="false" afterPath="$PROJECT_DIR$/join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/seajs-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/seajs-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wap/indexwap.html" beforeDir="false" afterPath="$PROJECT_DIR$/wap/indexwap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wap/wapabout.html" beforeDir="false" afterPath="$PROJECT_DIR$/wap/wapabout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wap/wapglzx.html" beforeDir="false" afterPath="$PROJECT_DIR$/wap/wapglzx.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wap/wapgyl.html" beforeDir="false" afterPath="$PROJECT_DIR$/wap/wapgyl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wap/wapjrkj.html" beforeDir="false" afterPath="$PROJECT_DIR$/wap/wapjrkj.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wap/waptzgl.html" beforeDir="false" afterPath="$PROJECT_DIR$/wap/waptzgl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wap/wapzcgl.html" beforeDir="false" afterPath="$PROJECT_DIR$/wap/wapzcgl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wap/wapzhky.html" beforeDir="false" afterPath="$PROJECT_DIR$/wap/wapzhky.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -123,7 +146,7 @@
     <session id="-695454220">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="36" />
+          <entry key="project.closed" value="38" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.10" value="1" />
@@ -135,11 +158,11 @@
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.4" value="4" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.49" value="1" />
@@ -153,41 +176,41 @@
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.72" value="1" />
-          <entry key="project.opened" value="45" />
+          <entry key="project.opened" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="107" />
-          <entry key="html" value="238" />
-          <entry key="jpg" value="6" />
-          <entry key="js" value="50" />
+          <entry key="css" value="122" />
+          <entry key="html" value="257" />
+          <entry key="jpg" value="7" />
+          <entry key="js" value="67" />
           <entry key="json" value="2" />
-          <entry key="png" value="144" />
+          <entry key="png" value="158" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="107" />
-          <entry key="HTML" value="238" />
-          <entry key="Image" value="150" />
+          <entry key="CSS" value="122" />
+          <entry key="HTML" value="257" />
+          <entry key="Image" value="165" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="50" />
+          <entry key="JavaScript" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="9864" />
-          <entry key="html" value="7335" />
-          <entry key="js" value="1469" />
+          <entry key="css" value="10935" />
+          <entry key="html" value="8227" />
+          <entry key="js" value="1784" />
           <entry key="txt" value="163" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="9864" />
-          <entry key="HTML" value="7335" />
-          <entry key="JavaScript" value="1469" />
+          <entry key="CSS" value="10935" />
+          <entry key="HTML" value="8227" />
+          <entry key="JavaScript" value="1784" />
           <entry key="PLAIN_TEXT" value="163" />
         </counts>
       </usages-collector>
@@ -219,44 +242,46 @@
     <session id="-2113337759">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1620" />
-          <entry key="html" value="1277" />
-          <entry key="js" value="406" />
+          <entry key="css" value="2283" />
+          <entry key="html" value="1649" />
+          <entry key="js" value="692" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1620" />
-          <entry key="HTML" value="1278" />
-          <entry key="JavaScript" value="405" />
+          <entry key="CSS" value="2283" />
+          <entry key="HTML" value="1650" />
+          <entry key="JavaScript" value="691" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="12" />
-          <entry key="html" value="16" />
+          <entry key="html" value="17" />
           <entry key="jpg" value="2" />
-          <entry key="js" value="11" />
-          <entry key="png" value="14" />
+          <entry key="js" value="12" />
+          <entry key="png" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="12" />
-          <entry key="HTML" value="16" />
-          <entry key="Image" value="16" />
-          <entry key="JavaScript" value="11" />
+          <entry key="HTML" value="17" />
+          <entry key="Image" value="18" />
+          <entry key="JavaScript" value="12" />
         </counts>
       </usages-collector>
     </session>
@@ -344,60 +369,76 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wap/indexwap.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="67" column="10" lean-forward="true" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/wap/indexwap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="60" column="47" lean-forward="true" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/css/regional.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="239" column="10" selection-start-line="239" selection-start-column="10" selection-end-line="239" selection-end-column="10" />
+            <state relative-caret-position="52">
+              <caret line="200" column="14" lean-forward="true" selection-start-line="200" selection-start-column="14" selection-end-line="200" selection-end-column="14" />
               <folding>
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/wap/wapcommon.css">
+        <entry file="file://$PROJECT_DIR$/assets/js/business.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+            <state relative-caret-position="391">
+              <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/wap/indexwap.js">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+            <state relative-caret-position="328">
+              <caret line="113" column="18" lean-forward="true" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/business.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/news.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/css/join.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/about.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+              <folding>
+                <element signature="e#792#2341#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -405,8 +446,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/about.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="236" column="19" lean-forward="true" selection-start-line="236" selection-start-column="19" selection-end-line="236" selection-end-column="19" />
+            <state relative-caret-position="73">
+              <caret line="150" column="13" lean-forward="true" selection-start-line="150" selection-start-column="13" selection-end-line="150" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/business.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3111">
+              <caret line="167" column="39" lean-forward="true" selection-start-line="167" selection-start-column="39" selection-end-line="167" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/nav.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="76" column="62" lean-forward="true" selection-start-line="76" selection-start-column="62" selection-end-line="76" selection-end-column="62" />
+              <folding>
+                <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -425,36 +487,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>nav-active</find>
-      <find>nav-box</find>
-      <find>vision-content</find>
-      <find>.nav-box</find>
-      <find>business-main</find>
-      <find>ly-nav</find>
-      <find>.footer-bottom</find>
-      <find>introduce-box</find>
-      <find>nav-box-mini</find>
-      <find>target=&quot;_bl</find>
-      <find>.introduce-text-box</find>
-      <find>.vision-box</find>
-      <find>vision-box</find>
-      <find>.footer-box&gt;div</find>
-      <find>footer-bottom-box</find>
-      <find>.open-job</find>
-      <find>.partners-content</find>
+      <find>nav-control-icon</find>
+      <find>transform: s</find>
+      <find>nav-title-one</find>
+      <find>nav-co</find>
+      <find>nav-pad</find>
+      <find>big-title-box</find>
+      <find>.nav-pad</find>
+      <find>.wapbusiness-box</find>
+      <find>.business-img</find>
+      <find>.business-banner-title</find>
+      <find>.business-banner-box</find>
+      <find>wapbanner-content</find>
+      <find>introduce-content</find>
+      <find>.team-main</find>
+      <find>.name-box</find>
+      <find>.photo-box</find>
+      <find>.slide-box</find>
+      <find>.team-detail</find>
+      <find>short-detail</find>
+      <find>.team-content</find>
       <find>.values-box</find>
-      <find>.short-detail</find>
-      <find>.introduce-btn</find>
-      <find>.nav-content</find>
-      <find>.title</find>
-      <find>#ly-header</find>
-      <find>.content</find>
-      <find>nav-content</find>
-      <find>110</find>
-      <find>china-map</find>
-      <find>.china-map</find>
-      <find>.map-box</find>
-      <find>map-content</find>
+      <find>.values-text-box</find>
+      <find>values-content</find>
+      <find>team-detail</find>
+      <find>title-en</find>
+      <find>footer-box</find>
+      <find>introduce-text</find>
+      <find>long-detail</find>
+      <find>.</find>
+      <find>banner-text-small</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -473,57 +535,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/js/common.js" />
-        <option value="$PROJECT_DIR$/assets/css/starsvg.css" />
         <option value="$PROJECT_DIR$/business1.html" />
         <option value="$PROJECT_DIR$/business-new.html" />
         <option value="$PROJECT_DIR$/assets/css/wap/swipeslider.css" />
         <option value="$PROJECT_DIR$/wap/index.html" />
-        <option value="$PROJECT_DIR$/assets/css/wap/wapbusiness.css" />
         <option value="$PROJECT_DIR$/glzx.html" />
         <option value="$PROJECT_DIR$/gyl.html" />
         <option value="$PROJECT_DIR$/jrkj.html" />
         <option value="$PROJECT_DIR$/ky.html" />
         <option value="$PROJECT_DIR$/tzgl.html" />
-        <option value="$PROJECT_DIR$/wap/wapglzx.html" />
-        <option value="$PROJECT_DIR$/wap/wapgyl.html" />
-        <option value="$PROJECT_DIR$/wap/wapjrkj.html" />
-        <option value="$PROJECT_DIR$/wap/waptzgl.html" />
-        <option value="$PROJECT_DIR$/wap/wapzcgl.html" />
-        <option value="$PROJECT_DIR$/wap/wapzhky.html" />
-        <option value="$PROJECT_DIR$/wap/wapabout.html" />
         <option value="$PROJECT_DIR$/assets/js/wap/wapnav.js" />
-        <option value="$PROJECT_DIR$/plugin/seajs-config.js" />
         <option value="$PROJECT_DIR$/demo.html" />
         <option value="$PROJECT_DIR$/zcgl.html" />
         <option value="$PROJECT_DIR$/assets/css/busiDetail.css" />
         <option value="$PROJECT_DIR$/assets/js/join.css" />
         <option value="$PROJECT_DIR$/assets/js/join.js" />
-        <option value="$PROJECT_DIR$/join.html" />
-        <option value="$PROJECT_DIR$/news.html" />
         <option value="$PROJECT_DIR$/assets/css/newDetail.css" />
-        <option value="$PROJECT_DIR$/business.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/assets/js/nav.js" />
-        <option value="$PROJECT_DIR$/assets/js/about.js" />
-        <option value="$PROJECT_DIR$/assets/js/business.js" />
-        <option value="$PROJECT_DIR$/assets/css/business.css" />
-        <option value="$PROJECT_DIR$/assets/css/news.css" />
-        <option value="$PROJECT_DIR$/assets/css/join.css" />
         <option value="$PROJECT_DIR$/assets/js/news.js" />
         <option value="$PROJECT_DIR$/newDetail.html" />
         <option value="$PROJECT_DIR$/assets/js/newDetail.js" />
-        <option value="$PROJECT_DIR$/assets/css/wap/aboutwap.css" />
         <option value="$PROJECT_DIR$/assets/js/index.js" />
         <option value="$PROJECT_DIR$/assets/css/index.css" />
-        <option value="$PROJECT_DIR$/assets/css/common.css" />
-        <option value="$PROJECT_DIR$/wap/indexwap.html" />
-        <option value="$PROJECT_DIR$/assets/css/wap/wapcommon.css" />
-        <option value="$PROJECT_DIR$/assets/js/wap/indexwap.js" />
-        <option value="$PROJECT_DIR$/assets/css/wap/indexwap.css" />
-        <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/assets/css/regional.css" />
+        <option value="$PROJECT_DIR$/plugin/seajs-config-wap.js" />
+        <option value="$PROJECT_DIR$/plugin/seajs-config.js" />
+        <option value="$PROJECT_DIR$/assets/css/wap/indexwap.css" />
+        <option value="$PROJECT_DIR$/wap/indexwap.html" />
+        <option value="$PROJECT_DIR$/wap/wapzcgl.html" />
+        <option value="$PROJECT_DIR$/wap/waptzgl.html" />
+        <option value="$PROJECT_DIR$/wap/wapjrkj.html" />
+        <option value="$PROJECT_DIR$/wap/wapgyl.html" />
+        <option value="$PROJECT_DIR$/wap/wapzhky.html" />
+        <option value="$PROJECT_DIR$/wap/wapglzx.html" />
+        <option value="$PROJECT_DIR$/assets/css/wap/wapbusiness.css" />
+        <option value="$PROJECT_DIR$/assets/css/wap/wapcommon.css" />
+        <option value="$PROJECT_DIR$/assets/js/wapnav.js" />
+        <option value="$PROJECT_DIR$/assets/js/wap/indexwap.js" />
+        <option value="$PROJECT_DIR$/assets/css/wap/aboutwap.css" />
+        <option value="$PROJECT_DIR$/wap/wapabout.html" />
+        <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/news.html" />
+        <option value="$PROJECT_DIR$/join.html" />
+        <option value="$PROJECT_DIR$/business.html" />
+        <option value="$PROJECT_DIR$/assets/css/common.css" />
+        <option value="$PROJECT_DIR$/assets/js/about.js" />
+        <option value="$PROJECT_DIR$/assets/js/nav.js" />
         <option value="$PROJECT_DIR$/assets/css/about.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/js/business.js" />
+        <option value="$PROJECT_DIR$/assets/css/news.css" />
+        <option value="$PROJECT_DIR$/assets/css/business.css" />
+        <option value="$PROJECT_DIR$/assets/css/join.css" />
       </list>
     </option>
   </component>
@@ -545,7 +607,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -568,37 +629,18 @@
               <item name="ly-html" type="b2602c69:ProjectViewProjectNode" />
               <item name="ly-html" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly-html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly-html" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="about" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly-html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly-html" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ly-html" type="b2602c69:ProjectViewProjectNode" />
               <item name="ly-html" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="wap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly-html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly-html" type="462c0819:PsiDirectoryNode" />
-              <item name="wap" type="462c0819:PsiDirectoryNode" />
+              <item name="plugin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -611,19 +653,19 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\project\liangyi\ly-html\assets\img\wap" />
-      <recent name="D:\project\seajs实验\ly-html\assets\img\news" />
-      <recent name="D:\project\seajs实验\ly-html\assets\img\business" />
-      <recent name="D:\project\seajs实验\ly-html\assets\img\join" />
-      <recent name="D:\project\seajs实验\ly-html\assets\img\index" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\project\seajs实验\ly-html\assets\img" />
       <recent name="D:\project\seajs实验\ly-html\assets\js" />
       <recent name="D:\project\liangyi\ly-html\assets\img\wap\banners" />
       <recent name="D:\project\liangyi\ly-html\assets\img\wap" />
       <recent name="D:\project\liangyi\ly-html\assets\img\business" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\liangyi\ly-html\plugin" />
+      <recent name="D:\project\liangyi\ly-html\assets\img\wap" />
+      <recent name="D:\project\seajs实验\ly-html\assets\img\news" />
+      <recent name="D:\project\seajs实验\ly-html\assets\img\business" />
+      <recent name="D:\project\seajs实验\ly-html\assets\img\join" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -720,7 +762,12 @@
       <workItem from="1554906097845" duration="7005000" />
       <workItem from="1554948812521" duration="6039000" />
       <workItem from="1554961478765" duration="13706000" />
-      <workItem from="1555031473778" duration="10820000" />
+      <workItem from="1555031473778" duration="26119000" />
+      <workItem from="1555171376844" duration="2663000" />
+      <workItem from="1555234177986" duration="13367000" />
+      <workItem from="1555291741615" duration="11729000" />
+      <workItem from="1555313801355" duration="9455000" />
+      <workItem from="1555376499583" duration="21273000" />
     </task>
     <task id="LOCAL-00001" summary="金融科技图片">
       <created>1548666891514</created>
@@ -897,11 +944,25 @@
       <option name="project" value="LOCAL" />
       <updated>1554969928820</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="线上样式修改">
+      <created>1555049463657</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1555049463657</updated>
+    </task>
+    <task id="LOCAL-00027" summary="线上样式修改">
+      <created>1555051927173</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1555051927173</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="834565000" />
+    <option name="totallyTimeSpent" value="908351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -953,167 +1014,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="线上样式修改" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/js/join.css" />
-    <entry file="file://$PROJECT_DIR$/assets/img/join/ic_open.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/join/join_now_bg.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/join.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/index/banneri.png" />
-    <entry file="file://$PROJECT_DIR$/assets/css/newDetail.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/join.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="261" column="33" selection-start-line="261" selection-start-column="33" selection-end-line="261" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/index/jhls.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/index/home_banner.png" />
-    <entry file="file://$PROJECT_DIR$/assets/img/index/jh.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/index/qzcy.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/index/qz.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/index/pic_Survey.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/about/about_banner1.png" />
-    <entry file="file://$PROJECT_DIR$/assets/img/about/about_banner_1.png" />
-    <entry file="file://$PROJECT_DIR$/assets/img/about/about_banner_2.png" />
-    <entry file="file://$PROJECT_DIR$/assets/img/about/about_banner_3.png" />
-    <entry file="file://$PROJECT_DIR$/assets/img/about/about_banner_4.png" />
-    <entry file="file://$PROJECT_DIR$/assets/js/about.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/business.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/news/news_banner_1.png" />
-    <entry file="file://$PROJECT_DIR$/assets/css/join.css" />
-    <entry file="file://$PROJECT_DIR$/assets/css/business.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/news.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/news/new_details_1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/newDetail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/wap/business/glzx.png" />
-    <entry file="file://$PROJECT_DIR$/assets/css/news.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/wap/icons.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/wap/intro2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/wap/aboutwap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="75" column="43" lean-forward="true" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/wap/banner.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/wap/banner2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/wap/banner3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/wap/bg.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2208">
-          <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2990">
-          <caret line="160" column="30" selection-start-line="160" selection-start-column="30" selection-end-line="160" selection-end-column="30" />
-          <folding>
-            <element signature="e#2981#4452#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5198">
@@ -1121,77 +1021,319 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="195" column="41" lean-forward="true" selection-start-line="195" selection-start-column="41" selection-end-line="195" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/img/about/map_black_bg.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/common.css">
+    <entry file="file://$PROJECT_DIR$/assets/img/about/01zr.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/wap/index/ic_close_more.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/wap/index/ic_close_nav.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/business/services_banner_1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/regional.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="184">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/wap/wapcommon.css">
+    <entry file="file://$PROJECT_DIR$/plugin/seajs-config-wap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        <state relative-caret-position="69">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wap/indexwap.html">
+    <entry file="file://$PROJECT_DIR$/assets/js/news.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="67" column="10" lean-forward="true" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+        <state relative-caret-position="621">
+          <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/join.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/wap/indexwap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="60" column="47" lean-forward="true" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+        <state relative-caret-position="92">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/business/ic_bljtszcgl.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/business/ic_gyljr.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/business/ic_hzzy.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/business/ic_jjfa.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/business/ic_jrkj.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/business/ic_kyny.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/business/ic_rzfw.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/business/ic_gylst.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/wapzcgl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/wapzhky.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/wapgyl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/wapjrkj.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/waptzgl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="55" lean-forward="true" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/wap/about/about_banner_2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/wap/wapcommon.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-598">
+          <caret line="82" column="16" lean-forward="true" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/indexwap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="208" column="34" lean-forward="true" selection-start-line="208" selection-start-column="34" selection-end-line="208" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/wap/about/pic_group_profile.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/wapglzx.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/wap/about/ic_open_introduce.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/wap/about/ic_close_introduce.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/wap/indexwap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        <state relative-caret-position="1058">
+          <caret line="52" column="23" lean-forward="true" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
+    <entry file="file://$PROJECT_DIR$/assets/css/wap/wapbusiness.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="239" column="10" selection-start-line="239" selection-start-column="10" selection-end-line="239" selection-end-column="10" />
+        <state relative-caret-position="1311">
+          <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/wap/about/pic_values_title_1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/wap/aboutwap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="169" column="19" lean-forward="true" selection-start-line="169" selection-start-column="19" selection-end-line="169" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/wapabout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="203" column="10" lean-forward="true" selection-start-line="203" selection-start-column="10" selection-end-line="203" selection-end-column="10" />
           <folding>
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#div#2;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#div#2;n#div#2;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/seajs-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/wapnav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="159" column="44" lean-forward="true" selection-start-line="159" selection-start-column="44" selection-end-line="159" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1154">
+          <caret line="232" column="23" lean-forward="true" selection-start-line="232" selection-start-column="23" selection-end-line="232" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/join.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="254" lean-forward="true" selection-start-line="254" selection-end-line="254" />
+          <folding>
+            <element signature="e#963#969#0" expanded="true" />
+            <element signature="e#969#975#0" expanded="true" />
+            <element signature="e#972#978#0" expanded="true" />
+            <element signature="e#984#990#0" expanded="true" />
+            <element signature="e#981#987#0" expanded="true" />
+            <element signature="e#999#1005#0" expanded="true" />
+            <element signature="e#990#996#0" expanded="true" />
+            <element signature="e#1014#1020#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/about.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+          <folding>
+            <element signature="e#792#2341#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="76" column="62" lean-forward="true" selection-start-line="76" selection-start-column="62" selection-end-line="76" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/about.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="236" column="19" lean-forward="true" selection-start-line="236" selection-start-column="19" selection-end-line="236" selection-end-column="19" />
+        <state relative-caret-position="73">
+          <caret line="150" column="13" lean-forward="true" selection-start-line="150" selection-start-column="13" selection-end-line="150" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/regional.css">
+    <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="52">
+          <caret line="200" column="14" lean-forward="true" selection-start-line="200" selection-start-column="14" selection-end-line="200" selection-end-column="14" />
+          <folding>
+            <element signature="n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="113" column="18" lean-forward="true" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3111">
+          <caret line="167" column="39" lean-forward="true" selection-start-line="167" selection-start-column="39" selection-end-line="167" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/business.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/business.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/news.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/join.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>

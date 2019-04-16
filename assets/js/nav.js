@@ -17,15 +17,15 @@ define(function (require,exports,module) {
         switch (tab){
             case "main":bannerHei = $(window).height();
                 break;
-            case "about":bannerHei = 380;
+            case "about":bannerHei = 50;
                 break;
-            case "business":bannerHei = 380;
+            case "business":bannerHei = 50;
                 break;
-            case "news":bannerHei = 460;
+            case "news":bannerHei = 50;
                 break;
             case "newsd":bannerHei = 0;
                 break;
-            case "join":bannerHei = 380;
+            case "join":bannerHei = 50;
                 break;
         }
 
@@ -37,22 +37,22 @@ define(function (require,exports,module) {
             '<div class="ly-nav">'+
             '<a href="index.html" class="nav-box indexnav '+(tab=="main"?'nav-active':'')+'">首页</a>'+
             '<a href="about.html" class="nav-box business-nav aboutnav '+(tab=="about"?'nav-active':'')+'">关于量意'+
-            // '<object class="nav-mini-content">'+
-            // '<a class="nav-box-mini" href="about.html">集团概况</a>'+
-            // '<a class="nav-box-mini" href="about.html#hxtd">核心团队</a>'+
-            // '<a class="nav-box-mini" href="about.html#hxjzg">核心价值观</a>'+
-            // '<a class="nav-box-mini" href="about.html#qybj">区域布局</a>'+
-            // '</object>'+
+            '<object class="nav-mini-content">'+
+            '<a class="nav-box-mini" href="about.html">集团概况</a>'+
+            '<a class="nav-box-mini" href="about.html#hxtd">核心团队</a>'+
+            '<a class="nav-box-mini" href="about.html#hxjzg">核心价值观</a>'+
+            '<a class="nav-box-mini" href="about.html#qybj">区域布局</a>'+
+            '</object>'+
             '</a>'+
             '<a href="business.html" class="nav-box business-nav businessnav '+(tab=="business"?'nav-active':'')+'">业务服务'+
-            // '<object class="nav-mini-content">'+
-            // '<a class="nav-box-mini" href="business.html">资产管理</a>'+
-            // '<a class="nav-box-mini" href="business.html#tzgl">投资管理</a>'+
-            // '<a class="nav-box-mini" href="business.html#glzx">管理咨询</a>'+
-            // '<a class="nav-box-mini" href="business.html#jrkj">金融科技</a>'+
-            // '<a class="nav-box-mini" href="business.html#gyljr">供应链金融</a>'+
-            // '<a class="nav-box-mini" href="business.html#zhky">智慧康养</a>'+
-            // '</object>'+
+            '<object class="nav-mini-content">'+
+            '<a class="nav-box-mini" href="business.html">资产管理</a>'+
+            '<a class="nav-box-mini" href="business.html#tzgl">投资管理</a>'+
+            '<a class="nav-box-mini" href="business.html#glzx">管理咨询</a>'+
+            '<a class="nav-box-mini" href="business.html#jrkj">金融科技</a>'+
+            '<a class="nav-box-mini" href="business.html#gyljr">供应链金融</a>'+
+            '<a class="nav-box-mini" href="business.html#zhky">智慧康养</a>'+
+            '</object>'+
             '</a>'+
             '<a href="news.html" class="nav-box newsnav '+(tab=="news"||tab=="newsd"?'nav-active':'')+'">新闻资讯</a>'+
             '<a href="join.html" class="nav-box joinnav '+(tab=="join"?'nav-active':'')+'" >加入我们</a>'+

@@ -60,6 +60,20 @@ var tabChange= function () {
 }
 tabChange();
 
+if(location.hash){
+    console.log("hash")
+    if(location.hash == '#hxtd'){
+        $(".banner-tab").eq(1).trigger('click');
+    }
+    if(location.hash == '#hxjzg'){
+        $(".banner-tab").eq(2).trigger('click');
+    }
+    if(location.hash == '#qybj'){
+        $(".banner-tab").eq(3).trigger('click');
+    }
+    location.hash = '';
+}
+
 window.onhashchange = function(){
     if(location.hash){
         console.log("hash")
