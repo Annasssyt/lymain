@@ -179,6 +179,13 @@
 .sup{
     display: none;
 }
+.sdown{
+    transform: rotate(0deg);
+    transition: all .6s linear;
+}
+.sdown:hover{
+    transform: rotate(360deg);
+}
 
 /*成员企业*/
 .member-content{
