@@ -12,7 +12,7 @@ var tabChange= function () {
             $('.zcgl').show();
         }else if($index == 1){
             $(".banner-title").text("投资管理");
-            $(".banner-detail").text("遵循价值投资和产融结合理念。通过对产业链上优质企业进行财务性或战略性投资，挖掘投融资 领域创新型业务机会，进行战略规划和投资布局");
+            $(".banner-detail").text("遵循价值投资和产融结合理念。通过对产业链上优质企业进行财务性或战略性投资，挖掘投融资领域创新型业务机会，进行战略规划和投资布局");
             $(".business-banner").css({'backgroundImage':'url("assets/img/business/services_banner_2.jpg")'});
             $('.tzgl').show();
         }else if($index == 2){
@@ -27,7 +27,7 @@ var tabChange= function () {
             $('.jrkj').show();
         }else if($index == 4){
             $(".banner-title").text("供应链金融");
-            $(".banner-detail").text("为产业链上下游企业提供全面的供应链金融解决方案，打造高效供应链生态圈，成为行业的 创新和领导者");
+            $(".banner-detail").text("为产业链上下游企业提供全面的供应链金融解决方案，打造高效供应链生态圈，成为行业的创新和领导者");
             $(".business-banner").css({'backgroundImage':'url("assets/img/business/services_banner_5.jpg")'});
             $('.gyljr').show();
         }else {
