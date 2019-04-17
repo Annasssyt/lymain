@@ -123,8 +123,11 @@
     margin-right: 50px;
 }
 .job{
-    font-size: 20px;
-    color: #393939;
+    /*font-size: 20px;*/
+    /*color: #393939;*/
+    font-size: 32px;
+    color: #999;
+    font-weight: 400;
 }
 .team-detail{
     width: 100%;
