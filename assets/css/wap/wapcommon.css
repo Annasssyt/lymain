@@ -56,21 +56,62 @@ img{
     position: fixed;
     top: 0;
     left: 0;
-    overflow-y: scroll;
+    overflow-y: auto;
     display: none;
+    color: #EEEEEE;
+    font-size: 16px;
+    line-height: 16px;
 }
 .nav-wapper{
     width: 100%;
-    padding-top: 30px;
+    /*padding-top: 30px;*/
     overflow: hidden;
+    padding-left: 15px;
+}
+.line-one{
+    width: 2px;
+    height: 16px;
+    background: #D32F2E;
+    float: left;
 }
 .nav-box{
     width: 100%;
-    margin-bottom: 30px;
+    padding: 20px 0;
     clear: both;
     display: inline-block;
     overflow: hidden;
+    border-bottom: 1px solid #222222;
 }
+.big-title-box-nav{
+    padding-bottom: 20px;
+}
+.big-title-nav{
+    color:#666666 ;
+    padding-left: 14px;
+}
+.small-title-box-nav{
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.nav-box:last-child{
+    border-bottom: none;
+}
+.nav{
+    padding:0 15px;
+    float: left;
+    text-decoration: none;
+    color:#eeeeee;
+}
+.line-two{
+    width: 1px;
+    height: 16px;
+    background: #666666;
+    float: left;
+}
+.nav-active{
+    color: #D32F2E;
+}
+
 .nav-box-active{
 
 }

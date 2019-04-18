@@ -268,15 +268,59 @@
 <script language="javascript" src="../plugin/sea.js"></script>
 <script src="../plugin/seajs-config-wap.js"></script>
 <script>
+    var hash=location.hash;
     seajs.use("wapnav",
         function (nav) {
-            nav.navInit('wapAbout')
+            nav.navInit(hash)
         }
     );
+    window.onhashchange = function(){
+        hash=location.hash;
+        if(location.hash){
+            console.log(location.hash)
+            if(location.hash == '#hxtd'){
+                $(".about-banner-title").text("核心团队");
+                $(".aboutbanner").addClass('hxtd').removeClass('jtgk hxjzg qybj');
+                $(".introduce-content").hide();
+                $(".team-content").show();
+                $(".values-content").hide();
+                $(".regional-content").hide();
+            }
+            if(location.hash == '#hxjzg'){
+                $(".about-banner-title").text("核心价值观");
+                $(".aboutbanner").addClass('hxjzg').removeClass('jtgk hxtd qybj');
+                $(".introduce-content").hide();
+                $(".team-content").hide();
+                $(".values-content").show();
+                $(".regional-content").hide();
+            }
+            if(location.hash == '#qybj'){
+                $(".about-banner-title").text("区域布局");
+                $(".aboutbanner").addClass('qybj').removeClass('jtgk hxtd hxjzg');
+                $(".introduce-content").hide();
+                $(".team-content").hide();
+                $(".values-content").hide();
+                $(".regional-content").show();
+            }
+        }else{
+            $(".about-banner-title").text("集团概况");
+            $(".aboutbanner").addClass('jtgk').removeClass('qybj hxtd hxjzg');
+            $(".introduce-content").show();
+            $(".team-content").hide();
+            $(".values-content").hide();
+            $(".regional-content").hide();
+
+        }
+        seajs.use("wapnav",
+            function (nav) {
+                nav.navInit(hash)
+            }
+        );
+
+    }
+
 </script>
 <script language="javascript" src="../assets/js/wap/indexwap.js"></script>
-
-
 
 </body>
 </html>

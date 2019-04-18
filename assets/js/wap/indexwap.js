@@ -39,44 +39,44 @@ if(location.hash){
 
 }
 
-window.onhashchange = function(){
-    if(location.hash){
-        console.log(location.hash)
-        if(location.hash == '#hxtd'){
-            $(".about-banner-title").text("核心团队");
-            $(".aboutbanner").addClass('hxtd').removeClass('jtgk hxjzg qybj');
-            $(".introduce-content").hide();
-            $(".team-content").show();
-            $(".values-content").hide();
-            $(".regional-content").hide();
-        }
-        if(location.hash == '#hxjzg'){
-            $(".about-banner-title").text("核心价值观");
-            $(".aboutbanner").addClass('hxjzg').removeClass('jtgk hxtd qybj');
-            $(".introduce-content").hide();
-            $(".team-content").hide();
-            $(".values-content").show();
-            $(".regional-content").hide();
-        }
-        if(location.hash == '#qybj'){
-            $(".about-banner-title").text("区域布局");
-            $(".aboutbanner").addClass('qybj').removeClass('jtgk hxtd hxjzg');
-            $(".introduce-content").hide();
-            $(".team-content").hide();
-            $(".values-content").hide();
-            $(".regional-content").show();
-        }
-    }else{
-        $(".about-banner-title").text("集团概况");
-        $(".aboutbanner").addClass('jtgk').removeClass('qybj hxtd hxjzg');
-        $(".introduce-content").show();
-        $(".team-content").hide();
-        $(".values-content").hide();
-        $(".regional-content").hide();
-
-    }
-
-}
+// window.onhashchange = function(){
+//     if(location.hash){
+//         console.log(location.hash)
+//         if(location.hash == '#hxtd'){
+//             $(".about-banner-title").text("核心团队");
+//             $(".aboutbanner").addClass('hxtd').removeClass('jtgk hxjzg qybj');
+//             $(".introduce-content").hide();
+//             $(".team-content").show();
+//             $(".values-content").hide();
+//             $(".regional-content").hide();
+//         }
+//         if(location.hash == '#hxjzg'){
+//             $(".about-banner-title").text("核心价值观");
+//             $(".aboutbanner").addClass('hxjzg').removeClass('jtgk hxtd qybj');
+//             $(".introduce-content").hide();
+//             $(".team-content").hide();
+//             $(".values-content").show();
+//             $(".regional-content").hide();
+//         }
+//         if(location.hash == '#qybj'){
+//             $(".about-banner-title").text("区域布局");
+//             $(".aboutbanner").addClass('qybj').removeClass('jtgk hxtd hxjzg');
+//             $(".introduce-content").hide();
+//             $(".team-content").hide();
+//             $(".values-content").hide();
+//             $(".regional-content").show();
+//         }
+//     }else{
+//         $(".about-banner-title").text("集团概况");
+//         $(".aboutbanner").addClass('jtgk').removeClass('qybj hxtd hxjzg');
+//         $(".introduce-content").show();
+//         $(".team-content").hide();
+//         $(".values-content").hide();
+//         $(".regional-content").hide();
+//
+//     }
+//
+// }
 
 var team= function () {
     $('.sdown').unbind("click").bind("click",function () {

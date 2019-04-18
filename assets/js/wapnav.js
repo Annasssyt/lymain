@@ -11,80 +11,70 @@ define(function (require,exports,module) {
 
     /*手机端nav*/
     HtmlUtil.mianNav = function (tab) {
-        var bannerHei;
 
-        switch (tab){
-            case "wapMain":bannerHei = $(window).height();
-                break;
-            case "wapAbout":bannerHei = 380;
-                break;
-            case "wapBusiness":bannerHei = 380;
-                break;
-            case "wapNews":bannerHei = 460;
-                break;
-            case "wapNewsd":bannerHei = 0;
-                break;
-            case "wapJoin":bannerHei = 380;
-                break;
-        }
+        // var hash=location.hash;
+        console.log(tab);
+
+
         var navHtml='<a href="indexwap.html"><img class="nav-logo" src="../assets/img/wap/index/logo_red_black.png" alt=""></a>'+
             '<img src="../assets/img/wap/index/ic_open_nav_red.png" class="open-nav" alt="">'+
             '<div class="nav-main animated">'+
             '<img src="../assets/img/wap/index/ic_close_nav.png" class="close-nav" alt="">'+
             '<div class="nav-wapper">'+
-            '<div class="nav-box '+(tab=="wapMain"?'nav-box-active':'')+'">'+
-            '<div class="nav-title-one-box">'+
-            '<div class="nav-line"></div>'+
-            '<a href="indexwap.html" class="nav-title-one">首页</a>'+
+            '<div class="nav-box">'+
+            '<a href="indexwap.html" class="nav '+(tab=="wapMain"?'nav-active':'')+'">首页</a>'+
             '</div>'+
-            '<div class="nav-title-two-box"></div>'+
+            '<div class="nav-box">'+
+            '<div class="big-title-box-nav">'+
+            '<div class="line-one"></div>'+
+            '<div class="big-title-nav">关于量意</div>'+
             '</div>'+
-            '<div class="nav-box '+(tab=="wapAbout"?'nav-box-active':'')+'">'+
-            '<div class="nav-title-one-box">'+
-            '<div class="nav-line"></div>'+
-            '<a href="wapabout.html" class="nav-title-one">关于量意</a>'+
-            '<div class="nav-control-icon open">'+
-            '<img src="../assets/img/wap/index/ic_open_more.png" class="nav-icon" alt="">'+
-            '<img src="../assets/img/wap/index/ic_close_more.png" class="nav-icon-red" alt="">'+
+            '<div class="small-title-box-nav" style="padding-bottom: 20px;">'+
+            '<a href="wapabout.html" class="nav '+(tab==""?'nav-active':'')+'">集团概况</a>'+
+            '<div class="line-two"></div>'+
+            '<a href="wapabout.html#hxtd" class="nav '+(tab=="#hxtd"?'nav-active':'')+'">核心团队</a>'+
+            '<div class="line-two"></div>'+
+            '<a href="wapabout.html#hxjzg" class="nav '+(tab=="#hxjzg"?'nav-active':'')+'">核心价值观</a>'+
             '</div>'+
-            '</div>'+
-            '<div class="nav-title-two-box">'+
-            '<a href="wapabout.html" class="nav-title-two">集团概况</a>'+
-            '<a href="wapabout.html#hxtd" class="nav-title-two">核心团队</a>'+
-            '<a href="wapabout.html#hxjzg" class="nav-title-two">核心价值观</a>'+
-            '<a href="wapabout.html#qybj" class="nav-title-two">区域布局</a>'+
+            '<div class="small-title-box-nav">'+
+            '<a href="wapabout.html#qybj" class="nav '+(tab=="#qybj"?'nav-active':'')+'">区域布局</a>'+
             '</div>'+
             '</div>'+
-            '<div class="nav-box '+(tab=="wapBusiness"?'nav-box-active':'')+'">'+
-            '<div class="nav-title-one-box">'+
-            '<div class="nav-line"></div>'+
-            '<a href="wapzcgl.html" class="nav-title-one">业务服务</a>'+
-            '<div class="nav-control-icon open">'+
-            '<img src="../assets/img/wap/index/ic_open_more.png" class="nav-icon" alt="">'+
-            '<img src="../assets/img/wap/index/ic_close_more.png" class="nav-icon-red" alt="">'+
+            '<div class="nav-box">'+
+            '<div class="big-title-box-nav">'+
+            '<div class="line-one"></div>'+
+            '<div class="big-title-nav">业务服务</div>'+
+            '</div>'+
+            '<div class="small-title-box-nav" style="padding-bottom: 20px;">'+
+            '<a href="wapzcgl.html" class="nav '+(tab=="zcgl"?'nav-active':'')+'">资产管理</a>'+
+            '<div class="line-two"></div>'+
+            '<a href="waptzgl.html" class="nav '+(tab=="tzgl"?'nav-active':'')+'">投资管理</a>'+
+            '<div class="line-two"></div>'+
+            '<a href="wapglzx.html" class="nav '+(tab=="glzx"?'nav-active':'')+'">管理咨询</a>'+
+            '</div>'+
+            '<div class="small-title-box-nav">'+
+            '<a href="wapjrkj.html" class="nav '+(tab=="jrkj"?'nav-active':'')+'">金融科技</a>'+
+            '<div class="line-two"></div>'+
+            '<a href="wapgyl.html" class="nav '+(tab=="gyljr"?'nav-active':'')+'">供应链金融</a>'+
+            '<div class="line-two"></div>'+
+            '<a href="wapzhky.html" class="nav '+(tab=="zhky"?'nav-active':'')+'">智慧康养</a>'+
             '</div>'+
             '</div>'+
-            '<div class="nav-title-two-box">'+
-            '<a href="wapzcgl.html" class="nav-title-two">资产管理</a>'+
-            '<a href="waptzgl.html" class="nav-title-two">投资管理</a>'+
-            '<a href="wapglzx.html" class="nav-title-two">管理咨询</a>'+
-            '<a href="wapjrkj.html" class="nav-title-two">金融科技</a>'+
-            '<a href="wapgyl.html" class="nav-title-two">供应链金融</a>'+
-            '<a href="wapzhky.html" class="nav-title-two">智慧康养</a>'+
-            '</div>'+
-            '</div>'+
-            '<div class="nav-box '+(tab=="wapJoin"?'nav-box-active':'')+'">'+
-            '<div class="nav-title-one-box">'+
-            '<div class="nav-line"></div>'+
-            '<a href="wapjoin.html" class="nav-title-one">加入我们</a>'+
-            '</div>'+
-            '<div class="nav-title-two-box"></div>'+
+            '<div class="nav-box">'+
+            '<a href="wapjoin.html" class="nav '+(tab=="wapJoin"?'nav-active':'')+'">加入我们</a>'+
             '</div>'+
             '</div>'+
             '</div>';
 
 
         $(".nav-content").html(navHtml);
+
+        // window.onhashchange = function(){
+        //     hash=location.hash;
+        //     console.log(hash);
+        //     // $(".nav-content").html(navHtml);
+        // }
+
         if (tab=="wapMain") {
             $(".nav-content").css({"background": "transparent","boxShadow":"none"});
             $(".nav-logo").attr('src','../assets/img/wap/index/logo_white.png');
@@ -121,7 +111,7 @@ define(function (require,exports,module) {
         })
 
         var nav= function () {
-            $('.nav-title-two').unbind("click").bind("click",function () {
+            $('.nav').unbind("click").bind("click",function () {
                 $('.open-nav').show();
                 $('.nav-main').hide();
                 $('html,body').removeClass('ovfHiden'); //使网页恢复可滚
