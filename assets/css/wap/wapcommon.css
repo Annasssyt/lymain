@@ -102,6 +102,13 @@ img{
     text-decoration: none;
     color:#eeeeee;
 }
+.navleft{
+    width: 115px;
+}
+.navright{
+    margin-left: 35px;
+
+}
 .line-two{
     width: 1px;
     height: 16px;

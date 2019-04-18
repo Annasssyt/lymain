@@ -64,6 +64,13 @@
     margin-right: 2px;
 }
 
+.close-bar{
+    width: 100%;
+    position: fixed;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 0px; ;
+}
+
 .job-box{
     width: 100%;
     line-height: 64px;

@@ -159,7 +159,6 @@
 .sup{
     display: none;
 }
-
 /*核心价值观*/
 .values-content{
     display: none;
@@ -181,18 +180,24 @@
 .values-text-box{
     width: 50%;
     box-sizing: border-box;
-    padding: 15px 10px;
+    /*padding: 15px 10px;*/
     align-items: center;
+    justify-content: center;
     color:#333333 ;
     font-size: 12px;
     background: #F6F6F8;
 }
-.values-text{
-    width: 115px;
+.values-text-b{
+    width: 150px;
+    overflow: hidden;
 }
-.values-text-box>img{
-    width: 27px;
+.values-text{
+    width: 150px;
+}
+.values-text-b>img{
+    width: 61px;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 .values-img-box{
     width: 50%;

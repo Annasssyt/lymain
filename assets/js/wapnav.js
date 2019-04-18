@@ -30,14 +30,14 @@ define(function (require,exports,module) {
             '<div class="big-title-nav">关于量意</div>'+
             '</div>'+
             '<div class="small-title-box-nav" style="padding-bottom: 20px;">'+
-            '<a href="wapabout.html" class="nav '+(tab==""?'nav-active':'')+'">集团概况</a>'+
+            '<a href="wapabout.html" class="nav navleft '+(tab==""?'nav-active':'')+'">集团概况</a>'+
             '<div class="line-two"></div>'+
-            '<a href="wapabout.html#hxtd" class="nav '+(tab=="#hxtd"?'nav-active':'')+'">核心团队</a>'+
-            '<div class="line-two"></div>'+
-            '<a href="wapabout.html#hxjzg" class="nav '+(tab=="#hxjzg"?'nav-active':'')+'">核心价值观</a>'+
+            '<a href="wapabout.html#hxtd" class="nav navright '+(tab=="#hxtd"?'nav-active':'')+'">核心团队</a>'+
             '</div>'+
             '<div class="small-title-box-nav">'+
-            '<a href="wapabout.html#qybj" class="nav '+(tab=="#qybj"?'nav-active':'')+'">区域布局</a>'+
+            '<a href="wapabout.html#hxjzg" class="nav navleft '+(tab=="#hxjzg"?'nav-active':'')+'">核心价值观</a>'+
+            '<div class="line-two"></div>'+
+            '<a href="wapabout.html#qybj" class="nav navright '+(tab=="#qybj"?'nav-active':'')+'">区域布局</a>'+
             '</div>'+
             '</div>'+
             '<div class="nav-box">'+
@@ -46,18 +46,19 @@ define(function (require,exports,module) {
             '<div class="big-title-nav">业务服务</div>'+
             '</div>'+
             '<div class="small-title-box-nav" style="padding-bottom: 20px;">'+
-            '<a href="wapzcgl.html" class="nav '+(tab=="zcgl"?'nav-active':'')+'">资产管理</a>'+
+            '<a href="wapzcgl.html" class="nav navleft '+(tab=="zcgl"?'nav-active':'')+'">资产管理</a>'+
             '<div class="line-two"></div>'+
-            '<a href="waptzgl.html" class="nav '+(tab=="tzgl"?'nav-active':'')+'">投资管理</a>'+
-            '<div class="line-two"></div>'+
-            '<a href="wapglzx.html" class="nav '+(tab=="glzx"?'nav-active':'')+'">管理咨询</a>'+
+            '<a href="waptzgl.html" class="nav navright '+(tab=="tzgl"?'nav-active':'')+'">投资管理</a>'+
             '</div>'+
             '<div class="small-title-box-nav">'+
-            '<a href="wapjrkj.html" class="nav '+(tab=="jrkj"?'nav-active':'')+'">金融科技</a>'+
+            '<a href="wapglzx.html" class="nav navleft '+(tab=="glzx"?'nav-active':'')+'">管理咨询</a>'+
             '<div class="line-two"></div>'+
-            '<a href="wapgyl.html" class="nav '+(tab=="gyljr"?'nav-active':'')+'">供应链金融</a>'+
+            '<a href="wapjrkj.html" class="nav navright '+(tab=="jrkj"?'nav-active':'')+'">金融科技</a>'+
+            '</div>'+
+            '<div class="small-title-box-nav">'+
+            '<a href="wapgyl.html" class="nav navleft '+(tab=="gyljr"?'nav-active':'')+'">供应链金融</a>'+
             '<div class="line-two"></div>'+
-            '<a href="wapzhky.html" class="nav '+(tab=="zhky"?'nav-active':'')+'">智慧康养</a>'+
+            '<a href="wapzhky.html" class="nav navright '+(tab=="zhky"?'nav-active':'')+'">智慧康养</a>'+
             '</div>'+
             '</div>'+
             '<div class="nav-box">'+
