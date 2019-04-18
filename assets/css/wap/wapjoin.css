@@ -65,10 +65,10 @@
 }
 
 .close-bar{
-    width: 100%;
-    position: fixed;
-    background: #ffffff;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 0px; ;
+    /*width: 100%;*/
+    /*position: fixed;*/
+    /*background: #ffffff;*/
+    /*box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 0px; */
 }
 
 .job-box{
@@ -85,7 +85,13 @@
 }
 .job-right{
     width: 156px;
+    float: left;
+    margin-left: 20px;
+}
+.job-open{
+    width: 10px;
     float: right;
+    margin-top: 24px;
 }
 .job-address{
     font-size: 12px;
