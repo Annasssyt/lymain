@@ -170,3 +170,11 @@ li{
     background: #D32F2E;
 }
 
+.kong {
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+

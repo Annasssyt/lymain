@@ -1,55 +1,21 @@
-.wapbanner-content{
-    display: -webkit-flex;
-    display: flex;
-    height: 160px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100% 100%;
-    background-color: #5DA0FB;
-    justify-content: center;
-    -webkit-justify-content: center;
-    align-items: center;
-    -webkit-align-items: center;
-}
 
-.glzxb{background-image:url("../../img/wap/banners/glzx.png"); }
-.gyljrb{background-image:url("../../img/wap/banners/gyljr.png");}
-.jrkjb{background-image:url("../../img/wap/banners/jrkj.png");}
-.tzglb{background-image:url("../../img/wap/banners/tzgl.png");}
-.zcglb{background-image:url("../../img/wap/banners/zcgl.png");}
-.zhkyb{background-image:url("../../img/wap/banners/zhky.png");}
 
-.business-banner-box{
-    width: 77%;
-    height: 59px;
-    padding: 15px 15px;
-    /*background:rgba(255,81,81,.7);*/
-    background:rgba(255,255,255,.5);
-    /*color: #ffffff;*/
-    color: #666666;
-    text-align: center;
-    align-items: center;
-    -webkit-align-items: center;
-}
-.business-banner-title{
-    font-size: 1rem;
-    line-height: 55px;
-    border-bottom: 2px solid #ffffff;
-    display: inline-block;
-}
+.zcglb{background-image:url("../../img/wap/business/services_banner_1.jpg");}
+.tzglb{background-image:url("../../img/wap/business/services_banner_2.png");}
+.jrkjb{background-image:url("../../img/wap/business/services_banner_4.png");}
+.glzxb{background-image:url("../../img/wap/business/services_banner_3.png");}
+.gyljrb{background-image:url("../../img/wap/business/services_banner_5.png");}
+.zhkyb{background-image:url("../../img/wap/business/services_banner_6.png");}
+
+
 .business-banner-detail{
-    font-size: 0.7rem;
+    font-size: 10px;
 }
 
-.wapbusiness-content{
-    width: 95%;
-    margin: 20px auto 30px;
-    border-radius: 10px;
-    padding:30px 0;
-}
+.wapbusiness-content{}
 
 .wapbusiness-main{
-    width: 88%;
+    /*width: 88%;*/
     margin: 0 auto;
 }
 
@@ -71,22 +37,27 @@
 }
 .wapbusiness-box{
     text-align: left;
-    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .small-title{
     font-weight: bold;
-    line-height: 1.75rem;
+    line-height: 16px;
+    color:#333333;
 }
 .small-title>span{
-    color: #ff5151;
+    color: #D32F2E;
     margin-right: 2px;
 }
 .business-img{
+    width: 201px;
     display: block;
     margin: 20px auto 20px;
-    /*text-align: center;*/
+}
+.business-img>img{
+
 }
 .business-detail{
-    font-size: 0.75rem;
-    line-height: 1.5rem;
+    color: #666666;
+    font-size: 14px;
+    line-height: 20px;
 }

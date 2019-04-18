@@ -27,7 +27,7 @@ define(function (require,exports,module) {
             case "wapJoin":bannerHei = 380;
                 break;
         }
-        var navHtml='<img class="nav-logo" src="../assets/img/wap/index/logo_red_black.png" alt="">'+
+        var navHtml='<a href="indexwap.html"><img class="nav-logo" src="../assets/img/wap/index/logo_red_black.png" alt=""></a>'+
             '<img src="../assets/img/wap/index/ic_open_nav_red.png" class="open-nav" alt="">'+
             '<div class="nav-main animated">'+
             '<img src="../assets/img/wap/index/ic_close_nav.png" class="close-nav" alt="">'+
@@ -67,8 +67,8 @@ define(function (require,exports,module) {
             '<div class="nav-title-two-box">'+
             '<a href="wapzcgl.html" class="nav-title-two">资产管理</a>'+
             '<a href="waptzgl.html" class="nav-title-two">投资管理</a>'+
-            '<a href="wapjrkj.html" class="nav-title-two">金融科技</a>'+
             '<a href="wapglzx.html" class="nav-title-two">管理咨询</a>'+
+            '<a href="wapjrkj.html" class="nav-title-two">金融科技</a>'+
             '<a href="wapgyl.html" class="nav-title-two">供应链金融</a>'+
             '<a href="wapzhky.html" class="nav-title-two">智慧康养</a>'+
             '</div>'+
@@ -76,7 +76,7 @@ define(function (require,exports,module) {
             '<div class="nav-box '+(tab=="wapJoin"?'nav-box-active':'')+'">'+
             '<div class="nav-title-one-box">'+
             '<div class="nav-line"></div>'+
-            '<div class="nav-title-one">加入我们</div>'+
+            '<a href="wapjoin.html" class="nav-title-one">加入我们</a>'+
             '</div>'+
             '<div class="nav-title-two-box"></div>'+
             '</div>'+
@@ -100,7 +100,7 @@ define(function (require,exports,module) {
                 //     $(".nav-logo").attr('src','../assets/img/wap/index/logo_red_black.png');
                 //     $(".open-nav").attr('src','../assets/img/wap/index/ic_open_nav_red.png');
                 // }
-                if (tab=="wapMain"&&topp >= 50) {
+                if (tab=="wapMain"&&topp <= 50) {
                     $(".nav-content").css({"background": "transparent","boxShadow":"none"});
                     $(".nav-logo").attr('src','../assets/img/wap/index/logo_white.png');
                     $(".open-nav").attr('src','../assets/img/wap/index/ic_open_nav_white.png');
@@ -124,15 +124,17 @@ define(function (require,exports,module) {
             $('.nav-title-two').unbind("click").bind("click",function () {
                 $('.open-nav').show();
                 $('.nav-main').hide();
+                $('html,body').removeClass('ovfHiden'); //使网页恢复可滚
             });
             $('.open-nav').unbind("click").bind("click",function () {
                 $(this).hide();
                 $('.nav-main').show().addClass('bounceInLeft').removeClass('bounceOutLeft');
+                $('html,body').addClass('ovfHiden'); //使网页不可滚动
             });
             $('.close-nav').unbind("click").bind("click",function () {
                 $('.open-nav').show();
                 $('.nav-main').addClass('bounceOutLeft').removeClass('bounceInLeft');
-
+                $('html,body').removeClass('ovfHiden'); //使网页恢复可滚
             });
             $('.nav-control-icon').unbind("click").bind("click",function () {
                 if($(this).hasClass("open")){
@@ -159,11 +161,11 @@ define(function (require,exports,module) {
             '<div class="wap-footer-content content" style="padding-bottom: 0;">'+
             '<div class="wap-footer flex">'+
             '<div class="wap-footer-box">'+
-            '<p class="footer-text">关于量意</p>'+
+            '<a href="indexwap.html" class="footer-text">首页</a>'+
             '<div class="footer-line"></div>'+
             '</div>'+
             '<div class="wap-footer-box">'+
-            '<p class="footer-text">业务服务</p>'+
+            '<a href="wapabout.html" class="footer-text">关于量意</a>'+
             '<div class="footer-line"></div>'+
             '</div>'+
             // '<div class="wap-footer-box">'+
@@ -171,11 +173,11 @@ define(function (require,exports,module) {
             // '<div class="footer-line"></div>'+
             // '</div>'+
             '<div class="wap-footer-box">'+
-            '<p class="footer-text">联系我们</p>'+
+            '<a href="wapzcgl.html" class="footer-text">业务服务</a>'+
             '<div class="footer-line"></div>'+
             '</div>'+
             '<div class="wap-footer-box">'+
-            '<p class="footer-text">加入我们</p>'+
+            '<a href="wapjoin.html" class="footer-text">加入我们</a>'+
             '<div class="footer-line"></div>'+
             '</div>'+
             '</div>'+
