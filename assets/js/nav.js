@@ -15,7 +15,8 @@ define(function (require,exports,module) {
         var bannerHei;
 
         switch (tab){
-            case "main":bannerHei = $(window).height();
+            // case "main":bannerHei = $(window).height();
+            case "main":bannerHei = 50;
                 break;
             case "about":bannerHei = 50;
                 break;
