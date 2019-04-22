@@ -5,7 +5,6 @@ a,img{border:0;text-decoration:none;}
 *html .clearfix{height:1%}
 
 .map-service-right{margin-left:414px;padding-top:60px}
-/*.china-map{width:748px;height:618px;background:url('../img/map_black_bg.png') center no-repeat;position:relative;}*/
 .china-map{
     width:748px;height:618px;background:url('../img/about/map_black_bg.png') center no-repeat;position:relative;
     margin:0 auto;

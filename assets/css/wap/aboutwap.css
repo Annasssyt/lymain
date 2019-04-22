@@ -91,7 +91,6 @@
     border-radius: 100%;
     background:#bfbfbf;
     margin: 0 10px;
-    z-index: 2;
 }
 .photo-box>img{
     width: 100%;
@@ -237,7 +236,6 @@
 /**html .clearfix{height:1%}*/
 
 /*.map-service-right{margin-left:414px;padding-top:60px}*/
-/*.china-map{width:748px;height:618px;background:url('../img/map_black_bg.png') center no-repeat;position:relative;}*/
 .map-box{
     width: 345px;
     height: 285px;
