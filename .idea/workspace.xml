@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc7d12b6-af59-4133-8bba-612316fd21a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/news/pic_news1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/news/pic_news2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/news/pic_news3.png" afterDir="false" />
+    <list default="true" id="dc7d12b6-af59-4133-8bba-612316fd21a7" name="Default Changelist" comment="...">
+      <change afterPath="$PROJECT_DIR$/assets/img/wap/index/ic_phone.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/newDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/newDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/news.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/news.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/wap/wapcommon.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/wap/wapcommon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/wapnav.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/wapnav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/business.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/join.html" beforeDir="false" afterPath="$PROJECT_DIR$/join.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/newDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/newDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wap/indexwap.html" beforeDir="false" afterPath="$PROJECT_DIR$/wap/indexwap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wap/wapabout.html" beforeDir="false" afterPath="$PROJECT_DIR$/wap/wapabout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wap/wapglzx.html" beforeDir="false" afterPath="$PROJECT_DIR$/wap/wapglzx.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wap/wapgyl.html" beforeDir="false" afterPath="$PROJECT_DIR$/wap/wapgyl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wap/wapjoin.html" beforeDir="false" afterPath="$PROJECT_DIR$/wap/wapjoin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wap/wapjrkj.html" beforeDir="false" afterPath="$PROJECT_DIR$/wap/wapjrkj.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wap/waptzgl.html" beforeDir="false" afterPath="$PROJECT_DIR$/wap/waptzgl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wap/wapzcgl.html" beforeDir="false" afterPath="$PROJECT_DIR$/wap/wapzcgl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wap/wapzhky.html" beforeDir="false" afterPath="$PROJECT_DIR$/wap/wapzhky.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +35,8 @@
     <session id="-695454220">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="56" />
-          <entry key="project.open.time.0" value="13" />
+          <entry key="project.closed" value="58" />
+          <entry key="project.open.time.0" value="14" />
           <entry key="project.open.time.1" value="13" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
@@ -56,7 +68,7 @@
           <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.72" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="68" />
+          <entry key="project.opened" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -64,7 +76,7 @@
           <entry key="css" value="154" />
           <entry key="html" value="297" />
           <entry key="jpg" value="7" />
-          <entry key="js" value="84" />
+          <entry key="js" value="85" />
           <entry key="json" value="2" />
           <entry key="png" value="174" />
         </counts>
@@ -75,22 +87,22 @@
           <entry key="HTML" value="297" />
           <entry key="Image" value="181" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="84" />
+          <entry key="JavaScript" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="12155" />
-          <entry key="html" value="9500" />
-          <entry key="js" value="2189" />
+          <entry key="css" value="12255" />
+          <entry key="html" value="9502" />
+          <entry key="js" value="2295" />
           <entry key="txt" value="176" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="12155" />
-          <entry key="HTML" value="9501" />
-          <entry key="JavaScript" value="2188" />
+          <entry key="CSS" value="12255" />
+          <entry key="HTML" value="9511" />
+          <entry key="JavaScript" value="2286" />
           <entry key="PLAIN_TEXT" value="176" />
         </counts>
       </usages-collector>
@@ -249,23 +261,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="871">
-              <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
-              <folding>
-                <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#div#2;n#div#1;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+            <state relative-caret-position="897">
+              <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -273,8 +272,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/wap/wapcommon.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="77" column="16" lean-forward="true" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+            <state relative-caret-position="2803">
+              <caret line="265" column="1" lean-forward="true" selection-start-line="265" selection-start-column="1" selection-end-line="265" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -305,14 +304,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wap/wapabout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3151">
-              <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+            <state relative-caret-position="713">
+              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
               <folding>
                 <element signature="n#div#2;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/js/wapnav.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3493">
+              <caret line="171" column="46" lean-forward="true" selection-start-line="171" selection-start-column="46" selection-end-line="171" selection-end-column="46" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -336,17 +349,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newDetail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="944">
-              <caret line="119" column="31" selection-start-line="119" selection-start-column="31" selection-end-line="119" selection-end-column="31" />
+            <state relative-caret-position="1179">
+              <caret line="227" column="69" lean-forward="true" selection-start-line="227" selection-start-column="69" selection-end-line="227" selection-end-column="69" />
               <folding>
+                <element signature="n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#3;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#5;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -366,8 +379,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>集团咨询团队依托专业人才和金融、财税</find>
-      <find>融资服务</find>
       <find>集团咨询团队依托金融、财税、法律</find>
       <find>以其专业的运作能力致力于为目标企业提供包含项目投资、贸易投资、股权投资、投资咨询与管理等灵活多样的投融资方式，建立资金和项目的信息数据集合，打造专业的投融资服务平台，</find>
       <find>策划总监</find>
@@ -396,6 +407,8 @@
       <find>注册资本10128万元人民币</find>
       <find>，注册资本10128万元人民币</find>
       <find>overfl</find>
+      <find>是经国家市场监督管理总局核准成立的全国性集团公司；</find>
+      <find>.copyright</find>
     </findStrings>
     <replaceStrings>
       <replace>d60b18</replace>
@@ -454,20 +467,20 @@
         <option value="$PROJECT_DIR$/wap/wapzhky.html" />
         <option value="$PROJECT_DIR$/wap/wapgyl.html" />
         <option value="$PROJECT_DIR$/assets/css/wap/indexwap.css" />
-        <option value="$PROJECT_DIR$/assets/js/wapnav.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/js/wap/indexwap.js" />
         <option value="$PROJECT_DIR$/wap/wapjoin.html" />
         <option value="$PROJECT_DIR$/assets/css/wap/wapjoin.css" />
         <option value="$PROJECT_DIR$/assets/css/wap/wapbusiness.css" />
-        <option value="$PROJECT_DIR$/assets/css/wap/wapcommon.css" />
         <option value="$PROJECT_DIR$/assets/css/regional.css" />
         <option value="$PROJECT_DIR$/assets/css/wap/aboutwap.css" />
         <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/wap/wapabout.html" />
         <option value="$PROJECT_DIR$/assets/js/news.js" />
         <option value="$PROJECT_DIR$/assets/js/newDetail.js" />
         <option value="$PROJECT_DIR$/newDetail.html" />
+        <option value="$PROJECT_DIR$/wap/wapabout.html" />
+        <option value="$PROJECT_DIR$/assets/css/wap/wapcommon.css" />
+        <option value="$PROJECT_DIR$/assets/js/wapnav.js" />
       </list>
     </option>
   </component>
@@ -525,35 +538,18 @@
               <item name="ly-html" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="about" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly-html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly-html" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="news" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly-html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly-html" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
               <item name="wap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly-html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly-html" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="wap" type="462c0819:PsiDirectoryNode" />
-              <item name="about" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ly-html" type="b2602c69:ProjectViewProjectNode" />
               <item name="ly-html" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ly-html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ly-html" type="462c0819:PsiDirectoryNode" />
+              <item name="wap" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -572,19 +568,19 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\project\liangyi\ly-html\assets\img\news" />
-      <recent name="D:\project\liangyi\ly-html\assets\img\about" />
-      <recent name="D:\project\liangyi\ly-html\assets\img\wap\about" />
-      <recent name="D:\project\liangyi\ly-html\assets\img" />
-      <recent name="D:\project\liangyi\ly-html\assets\img\wap\join" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\project\liangyi\ly-html\assets\img\news" />
       <recent name="D:\project\seajs实验\ly-html\assets\img" />
       <recent name="D:\project\seajs实验\ly-html\assets\js" />
       <recent name="D:\project\liangyi\ly-html\assets\img\wap\banners" />
       <recent name="D:\project\liangyi\ly-html\assets\img\wap" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\liangyi\ly-html\assets\img\wap\index" />
+      <recent name="D:\project\liangyi\ly-html\assets\img\news" />
+      <recent name="D:\project\liangyi\ly-html\assets\img\about" />
+      <recent name="D:\project\liangyi\ly-html\assets\img\wap\about" />
+      <recent name="D:\project\liangyi\ly-html\assets\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -707,7 +703,8 @@
       <workItem from="1558528262682" duration="318000" />
       <workItem from="1559026435299" duration="364000" />
       <workItem from="1559206057457" duration="625000" />
-      <workItem from="1559286576592" duration="3622000" />
+      <workItem from="1559286576592" duration="4236000" />
+      <workItem from="1559294768767" duration="5755000" />
     </task>
     <task id="LOCAL-00001" summary="金融科技图片">
       <created>1548666891514</created>
@@ -1038,16 +1035,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559287292864</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="...">
+      <created>1559290230454</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1559290230454</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1019276000" />
+    <option name="totallyTimeSpent" value="1025645000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14488935" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1512118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1246,13 +1251,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/wapnav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="39" column="68" lean-forward="true" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/img/map_black_bg.png" />
     <entry file="file://$PROJECT_DIR$/assets/img/logo22.png" />
     <entry file="file://$PROJECT_DIR$/assets/css/wap/aboutwap.css">
@@ -1302,16 +1300,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/regional.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="871">
+        <state relative-caret-position="1679">
           <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
           <folding>
             <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1320,48 +1311,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wap/wapabout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3151">
-          <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-          <folding>
-            <element signature="n#div#2;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/assets/img/wap/logo1.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/news.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/wap/logo1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/wap/wapcommon.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="77" column="16" lean-forward="true" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1372,16 +1328,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/regional.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/newDetail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="944">
-          <caret line="119" column="31" selection-start-line="119" selection-start-column="31" selection-end-line="119" selection-end-column="31" />
+        <state relative-caret-position="1179">
+          <caret line="227" column="69" lean-forward="true" selection-start-line="227" selection-start-column="69" selection-end-line="227" selection-end-column="69" />
           <folding>
+            <element signature="n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#3;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#5;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/wapabout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+          <folding>
+            <element signature="n#div#2;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/wap/wapcommon.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2803">
+          <caret line="265" column="1" lean-forward="true" selection-start-line="265" selection-start-column="1" selection-end-line="265" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/wapnav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3493">
+          <caret line="171" column="46" lean-forward="true" selection-start-line="171" selection-start-column="46" selection-end-line="171" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

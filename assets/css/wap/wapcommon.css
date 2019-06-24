@@ -284,9 +284,27 @@ img{
     font-size: 10px;
     line-height: 40px;
     color: #666666;
-    text-align: center;
+    text-align: left;
     background: #222222;
+    padding: 0 15px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .ovfHiden{overflow: hidden;height: 100%;}
+
+.phone{
+    align-items: center;
+    float: right;
+    font-size: 10px;
+    color: #666;
+}
+.copyright-span{
+    float: left;
+}
+.phone>img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
 

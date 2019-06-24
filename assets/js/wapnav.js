@@ -173,7 +173,13 @@ define(function (require,exports,module) {
             '</div>'+
             '</div>'+
             '</div>'+
-            '<p class="copyright">版权所有（C）量意集团 蜀ICP备18037172号</p>';
+            '<div class="copyright flex">' +
+            '<div class="copyright-span">版权所有（C）量意集团 蜀ICP备18037172号</div> ' +
+            '<div class="phone flex">' +
+            '<img src="../assets/img/wap/index/ic_phone.png" alt="">'+
+            '<span>400-62-00001</span>'+
+            '</div>'+
+            '</div>';
 
         $(".footer").html(footHtml);
 
